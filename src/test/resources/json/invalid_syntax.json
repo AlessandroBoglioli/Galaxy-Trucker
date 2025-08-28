@@ -1,0 +1,24 @@
+{
+  "cards": [
+    {
+      "type": "Pirate",
+      "data": {
+        "level": 1,
+        "creditsReward": 5
+      }
+    },
+    {
+      "type": "Planets",
+      "data": {
+        "level": 1,
+        "flightDaysReduction: 2,
+        "planets": [
+          {
+            "name": "Mars",
+            "cargos": ["RED"]
+          }
+        ]
+      }
+    }
+  ]
+}

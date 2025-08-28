@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<?import javafx.scene.text.Font?>
+<AnchorPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="it.polimi.ingsoftware.ll13.client.view.gui.EndGameController"
+            prefHeight="400.0" prefWidth="600.0"
+            styleClass="anchor-pane-background" stylesheets="@../css/PurpleGalaxy.css, @../css/Style.css">
+
+    <StackPane fx:id="stackPane" alignment="CENTER" AnchorPane.bottomAnchor="0" AnchorPane.leftAnchor="0" AnchorPane.rightAnchor="0" AnchorPane.topAnchor="0">
+
+        <GridPane fx:id="leaderboardGrid" hgap="20" vgap="10" alignment="CENTER">
+
+            <Label text="Posizione" GridPane.rowIndex="0" GridPane.columnIndex="0"/>
+            <Label text="Giocatore" GridPane.rowIndex="0" GridPane.columnIndex="1"/>
+            <Label text="Punteggio" GridPane.rowIndex="0" GridPane.columnIndex="2"/>
+
+            <Label text="1°" GridPane.rowIndex="1" GridPane.columnIndex="0"/>
+            <Label fx:id="firstPlayerName" text="Mario" GridPane.rowIndex="1" GridPane.columnIndex="1"/>
+            <Label fx:id="firstPlayerPoints" text="1200" GridPane.rowIndex="1" GridPane.columnIndex="2"/>
+
+            <Label text="2°" GridPane.rowIndex="2" GridPane.columnIndex="0"/>
+            <Label fx:id="secondPlayerName" text="Luigi" GridPane.rowIndex="2" GridPane.columnIndex="1"/>
+            <Label fx:id="secondPlayerPoints" text="1100" GridPane.rowIndex="2" GridPane.columnIndex="2"/>
+
+            <Label text="3°" GridPane.rowIndex="3" GridPane.columnIndex="0"/>
+            <Label fx:id="thirdPlayerName" text="Peach" GridPane.rowIndex="3" GridPane.columnIndex="1"/>
+            <Label fx:id="thirdPlayerPoints" text="900" GridPane.rowIndex="3" GridPane.columnIndex="2"/>
+
+            <Label text="4°" GridPane.rowIndex="4" GridPane.columnIndex="0"/>
+            <Label fx:id="fourthPlayerName" text="Yoshi" GridPane.rowIndex="4" GridPane.columnIndex="1"/>
+            <Label fx:id="fourthPlayerPoints" text="850" GridPane.rowIndex="4" GridPane.columnIndex="2"/>
+        </GridPane>
+
+    </StackPane>
+
+</AnchorPane>

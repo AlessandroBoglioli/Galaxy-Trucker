@@ -1,0 +1,320 @@
+{
+  "cards": [
+    {
+      "type": "AbandonedShip",
+      "data": {
+        "level": 2,
+        "image": "/cards/GT-cards_2_abandoned_ship_1.jpg",
+        "crew_sacrifice": 4,
+        "credits_reward": 6,
+        "flight_days_reduction": 1
+      }
+    },
+    {
+      "type": "AbandonedShip",
+      "data": {
+        "level": 2,
+        "image": "/cards/GT-cards_2_abandoned_ship_2.jpg",
+        "crew_sacrifice": 5,
+        "credits_reward": 8,
+        "flight_days_reduction": 2
+      }
+    },
+    {
+      "type": "AbandonedStation",
+      "data": {
+        "level": 2,
+        "image": "/cards/GT-cards_2_abandoned_station_1.jpg",
+        "required_crew": 7,
+        "rewards": [
+          "RED",
+          "YELLOW"
+        ],
+        "flight_days_reduction": 1
+      }
+    },
+    {
+      "type": "AbandonedStation",
+      "data": {
+        "level": 2,
+        "image": "/cards/GT-cards_2_abandoned_station_2.jpg",
+        "required_crew": 8,
+        "rewards": [
+          "YELLOW",
+          "YELLOW",
+          "GREEN"
+        ],
+        "flight_days_reduction": 2
+      }
+    },
+    {
+      "type": "Epidemic",
+      "data": {
+        "level": 2,
+        "image": "/cards/GT-cards_2_epidemic_1.jpg"
+      }
+    },
+    {
+      "type": "MeteorShower",
+      "data": {
+        "level": 2,
+        "image": "/cards/GT-cards_2_meteor_shower_1.jpg",
+        "meteors": [
+          {
+            "type": "SMALL",
+            "direction": "TOP"
+          },
+          {
+            "type": "SMALL",
+            "direction": "TOP"
+          },
+          {
+            "type": "BIG",
+            "direction": "LEFT"
+          },
+          {
+            "type": "SMALL",
+            "direction": "LEFT"
+          },
+          {
+            "type": "SMALL",
+            "direction": "LEFT"
+          }
+        ]
+      }
+    },
+    {
+      "type": "MeteorShower",
+      "data": {
+        "level": 2,
+        "image": "/cards/GT-cards_2_meteor_shower_3.jpg",
+        "meteors": [
+          {
+            "type": "SMALL",
+            "direction": "TOP"
+          },
+          {
+            "type": "SMALL",
+            "direction": "TOP"
+          },
+          {
+            "type": "BIG",
+            "direction": "RIGHT"
+          },
+          {
+            "type": "SMALL",
+            "direction": "RIGHT"
+          },
+          {
+            "type": "SMALL",
+            "direction": "RIGHT"
+          }
+        ]
+      }
+    },
+    {
+      "type": "MeteorShower",
+      "data": {
+        "level": 2,
+        "image": "/cards/GT-cards_2_meteor_shower_2.jpg",
+        "meteors": [
+          {
+            "type": "BIG",
+            "direction": "TOP"
+          },
+          {
+            "type": "BIG",
+            "direction": "TOP"
+          },
+          {
+            "type": "SMALL",
+            "direction": "BOTTOM"
+          },
+          {
+            "type": "SMALL",
+            "direction": "BOTTOM"
+          }
+        ]
+      }
+    },
+    {
+      "type": "OpenSpace",
+      "data": {
+        "level": 2,
+        "image": "/cards/GT-cards_2_open_space_1.jpg"
+      }
+    },
+    {
+      "type": "OpenSpace",
+      "data": {
+        "level": 2,
+        "image": "/cards/GT-cards_2_open_space_2.jpg"
+      }
+    },
+    {
+      "type": "OpenSpace",
+      "data": {
+        "level": 2,
+        "image": "/cards/GT-cards_2_open_space_3.jpg"
+      }
+    },
+    {
+      "type": "Pirate",
+      "data": {
+        "level": 2,
+        "image": "/cards/GT-cards_2_pirate_1.jpg",
+        "fire_power_needed": 6,
+        "fire_shots": [
+          {
+            "type": "BIG",
+            "direction": "TOP"
+          },
+          {
+            "type": "SMALL",
+            "direction": "TOP"
+          },
+          {
+            "type": "BIG",
+            "direction": "TOP"
+          }
+        ],
+        "credits_reward": 7,
+        "flight_days_reduction": 2
+      }
+    },
+    {
+      "type": "Planets",
+      "data": {
+        "level": 2,
+        "image": "/cards/GT-cards_2_planets_3.jpg",
+        "planets": [
+          {
+            "cargos": ["RED", "YELLOW"]
+          },
+          {
+            "cargos": ["YELLOW", "GREEN", "BLUE"]
+          },
+          {
+            "cargos": ["GREEN", "GREEN"]
+          },
+          {
+            "cargos": ["YELLOW"]
+          }
+        ],
+        "flight_days_reduction": 2
+      }
+    },
+    {
+      "type": "Planets",
+      "data": {
+        "level": 2,
+        "image": "/cards/GT-cards_2_planets_4.jpg",
+        "planets": [
+          {
+            "cargos": ["GREEN", "GREEN", "GREEN", "GREEN"]
+          },
+          {
+            "cargos": ["YELLOW", "YELLOW"]
+          },
+          {
+            "cargos": ["BLUE", "BLUE", "BLUE", "BLUE"]
+          }
+        ],
+        "flight_days_reduction": 3
+      }
+    },
+    {
+      "type": "Planets",
+      "data": {
+        "level": 2,
+        "image": "/cards/GT-cards_2_planets_2.jpg",
+        "planets": [
+          {
+            "cargos": ["RED", "RED"]
+          },
+          {
+            "cargos": ["GREEN", "GREEN", "GREEN", "GREEN"]
+          }
+        ],
+        "flight_days_reduction": 3
+      }
+    },
+    {
+      "type": "Planets",
+      "data": {
+        "level": 2,
+        "image": "/cards/GT-cards_2_planets_1.jpg",
+        "planets": [
+          {
+            "cargos": ["RED", "RED", "RED", "YELLOW"]
+          },
+          {
+            "cargos": ["RED", "RED", "GREEN", "GREEN"]
+          },
+          {
+            "cargos": ["RED", "BLUE", "BLUE", "BLUE", "BLUE"]
+          }
+        ],
+        "flight_days_reduction": 4
+      }
+    },
+    {
+      "type": "Slavers",
+      "data": {
+        "level": 2,
+        "image": "/cards/GT-cards_2_slavers_1.jpg",
+        "fire_power_needed": 7,
+        "crew_sacrifice": 4,
+        "credits_reward": 8,
+        "flight_days_reduction": 2
+      }
+    },
+    {
+      "type": "Smugglers",
+      "data": {
+        "level": 2,
+        "image": "/cards/GT-cards_2_smugglers_1.jpg",
+        "fire_power_needed": 8,
+        "cargo_penalty": 3,
+        "rewards": ["RED", "YELLOW", "YELLOW"],
+        "flight_days_reduction": 1
+      }
+    },
+    {
+      "type": "StellarSpacedust",
+      "data": {
+        "level": 2,
+        "image": "/cards/GT-cards_2_stellar_spacedust_1.jpg"
+      }
+    },
+    {
+      "type": "MeteorShower",
+      "data": {
+        "level": 2,
+        "image": "/cards/GT-cards_2_meteor_shower_1.jpg",
+        "meteors": [
+          {
+            "type": "SMALL",
+            "direction": "TOP"
+          },
+          {
+            "type": "SMALL",
+            "direction": "TOP"
+          },
+          {
+            "type": "BIG",
+            "direction": "LEFT"
+          },
+          {
+            "type": "SMALL",
+            "direction": "LEFT"
+          },
+          {
+            "type": "SMALL",
+            "direction": "LEFT"
+          }
+        ]
+      }
+    }
+  ]
+}

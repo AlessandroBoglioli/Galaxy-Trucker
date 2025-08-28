@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<?import javafx.scene.text.Font?>
+<AnchorPane fx:id="anchorPane"
+            xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="it.polimi.ingsoftware.ll13.client.view.gui.OutOfGameController"
+            prefHeight="985.0" prefWidth="1560.0"
+            styleClass="anchor-pane-background" stylesheets="@../css/PurpleGalaxy.css, @../css/Style.css">
+
+    <StackPane fx:id="stackPane" alignment="CENTER" AnchorPane.bottomAnchor="0" AnchorPane.leftAnchor="0" AnchorPane.rightAnchor="0" AnchorPane.topAnchor="0">
+
+        <VBox fx:id="container" alignment="CENTER" prefHeight="543.0" prefWidth="254.0" spacing="30" StackPane.alignment="CENTER">
+
+            <Label fx:id="pointsLabel" style="-fx-background-color: white; -fx-text-fill: #000000">
+                <font>
+                    <Font size="12.0" />
+                </font>
+            </Label>
+
+            <Button fx:id="disconnectButton" onAction="#disconnect" mnemonicParsing="false" prefHeight="37.0" prefWidth="170.0" text="Disconnettiti" />
+
+        </VBox>
+
+    </StackPane>
+
+</AnchorPane>

@@ -1,0 +1,1905 @@
+{
+  "tiles": [
+    {
+      "type": "BatteryStorage",
+      "data": {
+        "image": "/tiles/GT-tiles_1.jpg",
+        "connectors": [
+          {"direction": "TOP", "type": "SMOOTH"},
+          {"direction": "RIGHT", "type": "UNIVERSAL"},
+          {"direction": "BOTTOM", "type": "SINGLE"},
+          {"direction": "LEFT", "type": "DOUBLE"}
+        ],
+        "battery_capacity": 2
+      }
+    },
+    {
+      "type": "BatteryStorage",
+      "data": {
+        "image": "/tiles/GT-tiles_2.jpg",
+        "connectors": [
+          {"direction": "TOP", "type": "SMOOTH"},
+          {"direction": "RIGHT", "type": "UNIVERSAL"},
+          {"direction": "BOTTOM", "type": "SMOOTH"},
+          {"direction": "LEFT", "type": "UNIVERSAL"}
+        ],
+        "battery_capacity": 2
+      }
+    },
+    {
+      "type": "BatteryStorage",
+      "data": {
+        "image": "/tiles/GT-tiles_3.jpg",
+        "connectors": [
+          {"direction": "TOP", "type": "UNIVERSAL"},
+          {"direction": "RIGHT", "type": "SMOOTH"},
+          {"direction": "BOTTOM", "type": "SMOOTH"},
+          {"direction": "LEFT", "type": "UNIVERSAL"}
+        ],
+        "battery_capacity": 2
+      }
+    },
+    {
+      "type": "BatteryStorage",
+      "data": {
+        "image": "/tiles/GT-tiles_4.jpg",
+        "connectors": [
+          {"direction": "TOP", "type": "SINGLE"},
+          {"direction": "RIGHT", "type": "SMOOTH"},
+          {"direction": "BOTTOM", "type": "DOUBLE"},
+          {"direction": "LEFT", "type": "SMOOTH"}
+        ],
+        "battery_capacity": 3
+      }
+    },
+    {
+      "type": "BatteryStorage",
+      "data": {
+        "image": "/tiles/GT-tiles_5.jpg",
+        "connectors": [
+          {"direction": "TOP", "type": "SINGLE"},
+          {"direction": "RIGHT", "type": "SINGLE"},
+          {"direction": "BOTTOM", "type": "DOUBLE"},
+          {"direction": "LEFT", "type": "SMOOTH"}
+        ],
+        "battery_capacity": 3
+      }
+    },
+    {
+      "type": "BatteryStorage",
+      "data": {
+        "image": "/tiles/GT-tiles_6.jpg",
+        "connectors": [
+          {"direction": "TOP", "type": "DOUBLE"},
+          {"direction": "RIGHT", "type": "SMOOTH"},
+          {"direction": "BOTTOM", "type": "SMOOTH"},
+          {"direction": "LEFT", "type": "SMOOTH"}
+        ],
+        "battery_capacity": 3
+      }
+    },
+    {
+      "type": "BatteryStorage",
+      "data": {
+        "image": "/tiles/GT-tiles_7.jpg",
+        "connectors": [
+          {"direction": "TOP", "type": "DOUBLE"},
+          {"direction": "RIGHT", "type": "SINGLE"},
+          {"direction": "BOTTOM", "type": "SMOOTH"},
+          {"direction": "LEFT", "type": "SMOOTH"}
+        ],
+        "battery_capacity": 3
+      }
+    },
+    {
+      "type": "BatteryStorage",
+      "data": {
+        "image": "/tiles/GT-tiles_8.jpg",
+        "connectors": [
+          {"direction": "TOP", "type": "DOUBLE"},
+          {"direction": "RIGHT", "type": "DOUBLE"},
+          {"direction": "BOTTOM", "type": "SINGLE"},
+          {"direction": "LEFT", "type": "SMOOTH"}
+        ],
+        "battery_capacity": 3
+      }
+    },
+    {
+      "type": "BatteryStorage",
+      "data": {
+        "image": "/tiles/GT-tiles_9.jpg",
+        "connectors": [
+          {"direction": "TOP", "type": "SMOOTH"},
+          {"direction": "RIGHT", "type": "SMOOTH"},
+          {"direction": "BOTTOM", "type": "SMOOTH"},
+          {"direction": "LEFT", "type": "SINGLE"}
+        ],
+        "battery_capacity": 3
+      }
+    },
+    {
+      "type": "BatteryStorage",
+      "data": {
+        "image": "/tiles/GT-tiles_10.jpg",
+        "connectors": [
+          {"direction": "TOP", "type": "UNIVERSAL"},
+          {"direction": "RIGHT", "type": "DOUBLE"},
+          {"direction": "BOTTOM", "type": "SMOOTH"},
+          {"direction": "LEFT", "type": "SMOOTH"}
+        ],
+        "battery_capacity": 2
+      }
+    },
+    {
+      "type": "BatteryStorage",
+      "data": {
+        "image": "/tiles/GT-tiles_11.jpg",
+        "connectors": [
+          {"direction": "TOP", "type": "UNIVERSAL"},
+          {"direction": "RIGHT", "type": "DOUBLE"},
+          {"direction": "BOTTOM", "type": "SINGLE"},
+          {"direction": "LEFT", "type": "SMOOTH"}
+        ],
+        "battery_capacity": 2
+      }
+    },
+    {
+      "type": "BatteryStorage",
+      "data": {
+        "image": "/tiles/GT-tiles_12.jpg",
+        "connectors": [
+          {"direction": "TOP", "type": "DOUBLE"},
+          {"direction": "RIGHT", "type": "SINGLE"},
+          {"direction": "BOTTOM", "type": "DOUBLE"},
+          {"direction": "LEFT", "type": "SINGLE"}
+        ],
+        "battery_capacity": 2
+      }
+    },
+    {
+      "type": "BatteryStorage",
+      "data": {
+        "image": "/tiles/GT-tiles_13.jpg",
+        "connectors": [
+          {"direction": "TOP", "type": "SMOOTH"},
+          {"direction": "RIGHT", "type": "SMOOTH"},
+          {"direction": "BOTTOM", "type": "SMOOTH"},
+          {"direction": "LEFT", "type": "UNIVERSAL"}
+        ],
+        "battery_capacity": 2
+      }
+    },
+    {
+      "type": "BatteryStorage",
+      "data": {
+        "image": "/tiles/GT-tiles_14.jpg",
+        "connectors": [
+          {"direction": "TOP", "type": "UNIVERSAL"},
+          {"direction": "RIGHT", "type": "SMOOTH"},
+          {"direction": "BOTTOM", "type": "SMOOTH"},
+          {"direction": "LEFT", "type": "SINGLE"}
+        ],
+        "battery_capacity": 2
+      }
+    },
+    {
+      "type": "BatteryStorage",
+      "data": {
+        "image": "/tiles/GT-tiles_15.jpg",
+        "connectors": [
+          {"direction": "TOP", "type": "UNIVERSAL"},
+          {"direction": "RIGHT", "type": "SINGLE"},
+          {"direction": "BOTTOM", "type": "SINGLE"},
+          {"direction": "LEFT", "type": "SINGLE"}
+        ],
+        "battery_capacity": 2
+      }
+    },
+    {
+      "type": "BatteryStorage",
+      "data": {
+        "image": "/tiles/GT-tiles_16.jpg",
+        "connectors": [
+          {"direction": "TOP", "type": "UNIVERSAL"},
+          {"direction": "RIGHT", "type": "DOUBLE"},
+          {"direction": "BOTTOM", "type": "DOUBLE"},
+          {"direction": "LEFT", "type": "DOUBLE"}
+        ],
+        "battery_capacity": 2
+      }
+    },
+    {
+      "type": "BatteryStorage",
+      "data": {
+        "image": "/tiles/GT-tiles_17.jpg",
+        "connectors": [
+          {"direction": "TOP", "type": "SMOOTH"},
+          {"direction": "RIGHT", "type": "SMOOTH"},
+          {"direction": "BOTTOM", "type": "SMOOTH"},
+          {"direction": "LEFT", "type": "UNIVERSAL"}
+        ],
+        "battery_capacity": 2
+      }
+    },
+    {
+      "type": "Cabin",
+      "data": {
+        "image": "/tiles/GT-tiles_18.jpg",
+        "connectors": [
+          {"direction": "TOP", "type": "SMOOTH"},
+          {"direction": "RIGHT", "type": "SMOOTH"},
+          {"direction": "BOTTOM", "type": "UNIVERSAL"},
+          {"direction": "LEFT", "type": "SINGLE"}
+        ]
+      }
+    },
+    {
+      "type": "Cabin",
+      "data": {
+        "image": "/tiles/GT-tiles_19.jpg",
+        "connectors": [
+          {"direction": "TOP", "type": "SINGLE"},
+          {"direction": "RIGHT", "type": "DOUBLE"},
+          {"direction": "BOTTOM", "type": "SINGLE"},
+          {"direction": "LEFT", "type": "SINGLE"}
+        ]
+      }
+    },
+    {
+      "type": "Cabin",
+      "data": {
+        "image": "/tiles/GT-tiles_20.jpg",
+        "connectors": [
+          {"direction": "TOP", "type": "SINGLE"},
+          {"direction": "RIGHT", "type": "DOUBLE"},
+          {"direction": "BOTTOM", "type": "DOUBLE"},
+          {"direction": "LEFT", "type": "SINGLE"}
+        ]
+      }
+    },
+    {
+      "type": "Cabin",
+      "data": {
+        "image": "/tiles/GT-tiles_21.jpg",
+        "connectors": [
+          {"direction": "TOP", "type": "DOUBLE"},
+          {"direction": "RIGHT", "type": "SMOOTH"},
+          {"direction": "BOTTOM", "type": "SMOOTH"},
+          {"direction": "LEFT", "type": "SINGLE"}
+        ]
+      }
+    },
+    {
+      "type": "Cabin",
+      "data": {
+        "image": "/tiles/GT-tiles_22.jpg",
+        "connectors": [
+          {"direction": "TOP", "type": "DOUBLE"},
+          {"direction": "RIGHT", "type": "SINGLE"},
+          {"direction": "BOTTOM", "type": "SMOOTH"},
+          {"direction": "LEFT", "type": "SINGLE"}
+        ]
+      }
+    },
+    {
+      "type": "Cabin",
+      "data": {
+        "image": "/tiles/GT-tiles_23.jpg",
+        "connectors": [
+          {"direction": "TOP", "type": "DOUBLE"},
+          {"direction": "RIGHT", "type": "SINGLE"},
+          {"direction": "BOTTOM", "type": "DOUBLE"},
+          {"direction": "LEFT", "type": "SINGLE"}
+        ]
+      }
+    },
+    {
+      "type": "Cabin",
+      "data": {
+        "image": "/tiles/GT-tiles_24.jpg",
+        "connectors": [
+          {"direction": "TOP", "type": "SMOOTH"},
+          {"direction": "RIGHT", "type": "SINGLE"},
+          {"direction": "BOTTOM", "type": "UNIVERSAL"},
+          {"direction": "LEFT", "type": "DOUBLE"}
+        ]
+      }
+    },
+    {
+      "type": "Cabin",
+      "data": {
+        "image": "/tiles/GT-tiles_25.jpg",
+        "connectors": [
+          {"direction": "TOP", "type": "SINGLE"},
+          {"direction": "RIGHT", "type": "DOUBLE"},
+          {"direction": "BOTTOM", "type": "SMOOTH"},
+          {"direction": "LEFT", "type": "DOUBLE"}
+        ]
+      }
+    },
+    {
+      "type": "Cabin",
+      "data": {
+        "image": "/tiles/GT-tiles_26.jpg",
+        "connectors": [
+          {"direction": "TOP", "type": "DOUBLE"},
+          {"direction": "RIGHT", "type": "SINGLE"},
+          {"direction": "BOTTOM", "type": "DOUBLE"},
+          {"direction": "LEFT", "type": "DOUBLE"}
+        ]
+      }
+    },
+    {
+      "type": "Cabin",
+      "data": {
+        "image": "/tiles/GT-tiles_27.jpg",
+        "connectors": [
+          {"direction": "TOP", "type": "UNIVERSAL"},
+          {"direction": "RIGHT", "type": "SMOOTH"},
+          {"direction": "BOTTOM", "type": "SMOOTH"},
+          {"direction": "LEFT", "type": "DOUBLE"}
+        ]
+      }
+    },
+    {
+      "type": "Cabin",
+      "data": {
+        "image": "/tiles/GT-tiles_28.jpg",
+        "connectors": [
+          {"direction": "TOP", "type": "SMOOTH"},
+          {"direction": "RIGHT", "type": "SINGLE"},
+          {"direction": "BOTTOM", "type": "SMOOTH"},
+          {"direction": "LEFT", "type": "UNIVERSAL"}
+        ]
+      }
+    },
+    {
+      "type": "Cabin",
+      "data": {
+        "image": "/tiles/GT-tiles_29.jpg",
+        "connectors": [
+          {"direction": "TOP", "type": "SMOOTH"},
+          {"direction": "RIGHT", "type": "SINGLE"},
+          {"direction": "BOTTOM", "type": "SINGLE"},
+          {"direction": "LEFT", "type": "UNIVERSAL"}
+        ]
+      }
+    },
+    {
+      "type": "Cabin",
+      "data": {
+        "image": "/tiles/GT-tiles_30.jpg",
+        "connectors": [
+          {"direction": "TOP", "type": "SMOOTH"},
+          {"direction": "RIGHT", "type": "DOUBLE"},
+          {"direction": "BOTTOM", "type": "SMOOTH"},
+          {"direction": "LEFT", "type": "UNIVERSAL"}
+        ]
+      }
+    },
+    {
+      "type": "Cabin",
+      "data": {
+        "image": "/tiles/GT-tiles_31.jpg",
+        "connectors": [
+          {"direction": "TOP", "type": "SINGLE"},
+          {"direction": "RIGHT", "type": "SMOOTH"},
+          {"direction": "BOTTOM", "type": "SINGLE"},
+          {"direction": "LEFT", "type": "UNIVERSAL"}
+        ]
+      }
+    },
+    {
+      "type": "Cabin",
+      "data": {
+        "image": "/tiles/GT-tiles_32.jpg",
+        "connectors": [
+          {"direction": "TOP", "type": "SINGLE"},
+          {"direction": "RIGHT", "type": "SMOOTH"},
+          {"direction": "BOTTOM", "type": "DOUBLE"},
+          {"direction": "LEFT", "type": "UNIVERSAL"}
+        ]
+      }
+    },
+    {
+      "type": "Cabin",
+      "data": {
+        "image": "/tiles/GT-tiles_33.jpg",
+        "connectors": [
+          {"direction": "TOP", "type": "DOUBLE"},
+          {"direction": "RIGHT", "type": "SMOOTH"},
+          {"direction": "BOTTOM", "type": "DOUBLE"},
+          {"direction": "LEFT", "type": "UNIVERSAL"}
+        ]
+      }
+    },
+    {
+      "type": "Cabin",
+      "data": {
+        "image": "/tiles/GT-tiles_34.jpg",
+        "connectors": [
+          {"direction": "TOP", "type": "DOUBLE"},
+          {"direction": "RIGHT", "type": "DOUBLE"},
+          {"direction": "BOTTOM", "type": "SMOOTH"},
+          {"direction": "LEFT", "type": "UNIVERSAL"}
+        ]
+      }
+    },
+    {
+      "type": "Cannon",
+      "data": {
+        "image": "/tiles/GT-tiles_35.jpg",
+        "connectors": [
+          {"direction": "TOP", "type": "SMOOTH"},
+          {"direction": "RIGHT", "type": "SMOOTH"},
+          {"direction": "BOTTOM", "type": "SINGLE"},
+          {"direction": "LEFT", "type": "SMOOTH"}
+        ]
+      }
+    },
+    {
+      "type": "Cannon",
+      "data": {
+        "image": "/tiles/GT-tiles_36.jpg",
+        "connectors": [
+          {"direction": "TOP", "type": "SMOOTH"},
+          {"direction": "RIGHT", "type": "SMOOTH"},
+          {"direction": "BOTTOM", "type": "SINGLE"},
+          {"direction": "LEFT", "type": "SMOOTH"}
+        ]
+      }
+    },
+    {
+      "type": "Cannon",
+      "data": {
+        "image": "/tiles/GT-tiles_37.jpg",
+        "connectors": [
+          {"direction": "TOP", "type": "SMOOTH"},
+          {"direction": "RIGHT", "type": "SMOOTH"},
+          {"direction": "BOTTOM", "type": "DOUBLE"},
+          {"direction": "LEFT", "type": "SMOOTH"}
+        ]
+      }
+    },
+    {
+      "type": "Cannon",
+      "data": {
+        "image": "/tiles/GT-tiles_38.jpg",
+        "connectors": [
+          {"direction": "TOP", "type": "SMOOTH"},
+          {"direction": "RIGHT", "type": "SMOOTH"},
+          {"direction": "BOTTOM", "type": "DOUBLE"},
+          {"direction": "LEFT", "type": "SMOOTH"}
+        ]
+      }
+    },
+    {
+      "type": "Cannon",
+      "data": {
+        "image": "/tiles/GT-tiles_39.jpg",
+        "connectors": [
+          {"direction": "TOP", "type": "SMOOTH"},
+          {"direction": "RIGHT", "type": "SINGLE"},
+          {"direction": "BOTTOM", "type": "SMOOTH"},
+          {"direction": "LEFT", "type": "SMOOTH"}
+        ]
+      }
+    },
+    {
+      "type": "Cannon",
+      "data": {
+        "image": "/tiles/GT-tiles_40.jpg",
+        "connectors": [
+          {"direction": "TOP", "type": "SMOOTH"},
+          {"direction": "RIGHT", "type": "SINGLE"},
+          {"direction": "BOTTOM", "type": "DOUBLE"},
+          {"direction": "LEFT", "type": "SMOOTH"}
+        ]
+      }
+    },
+    {
+      "type": "Cannon",
+      "data": {
+        "image": "/tiles/GT-tiles_41.jpg",
+        "connectors": [
+          {"direction": "TOP", "type": "SMOOTH"},
+          {"direction": "RIGHT", "type": "SINGLE"},
+          {"direction": "BOTTOM", "type": "UNIVERSAL"},
+          {"direction": "LEFT", "type": "SMOOTH"}
+        ]
+      }
+    },
+    {
+      "type": "Cannon",
+      "data": {
+        "image": "/tiles/GT-tiles_42.jpg",
+        "connectors": [
+          {"direction": "TOP", "type": "SMOOTH"},
+          {"direction": "RIGHT", "type": "DOUBLE"},
+          {"direction": "BOTTOM", "type": "SMOOTH"},
+          {"direction": "LEFT", "type": "SMOOTH"}
+        ]
+      }
+    },
+    {
+      "type": "Cannon",
+      "data": {
+        "image": "/tiles/GT-tiles_43.jpg",
+        "connectors": [
+          {"direction": "TOP", "type": "SMOOTH"},
+          {"direction": "RIGHT", "type": "DOUBLE"},
+          {"direction": "BOTTOM", "type": "SINGLE"},
+          {"direction": "LEFT", "type": "SMOOTH"}
+        ]
+      }
+    },
+    {
+      "type": "Cannon",
+      "data": {
+        "image": "/tiles/GT-tiles_44.jpg",
+        "connectors": [
+          {"direction": "TOP", "type": "SMOOTH"},
+          {"direction": "RIGHT", "type": "DOUBLE"},
+          {"direction": "BOTTOM", "type": "UNIVERSAL"},
+          {"direction": "LEFT", "type": "SMOOTH"}
+        ]
+      }
+    },
+    {
+      "type": "Cannon",
+      "data": {
+        "image": "/tiles/GT-tiles_45.jpg",
+        "connectors": [
+          {"direction": "TOP", "type": "SMOOTH"},
+          {"direction": "RIGHT", "type": "UNIVERSAL"},
+          {"direction": "BOTTOM", "type": "SINGLE"},
+          {"direction": "LEFT", "type": "SMOOTH"}
+        ]
+      }
+    },
+    {
+      "type": "Cannon",
+      "data": {
+        "image": "/tiles/GT-tiles_46.jpg",
+        "connectors": [
+          {"direction": "TOP", "type": "SMOOTH"},
+          {"direction": "RIGHT", "type": "SMOOTH"},
+          {"direction": "BOTTOM", "type": "SMOOTH"},
+          {"direction": "LEFT", "type": "SINGLE"}
+        ]
+      }
+    },
+    {
+      "type": "Cannon",
+      "data": {
+        "image": "/tiles/GT-tiles_47.jpg",
+        "connectors": [
+          {"direction": "TOP", "type": "SMOOTH"},
+          {"direction": "RIGHT", "type": "SMOOTH"},
+          {"direction": "BOTTOM", "type": "DOUBLE"},
+          {"direction": "LEFT", "type": "SINGLE"}
+        ]
+      }
+    },
+    {
+      "type": "Cannon",
+      "data": {
+        "image": "/tiles/GT-tiles_48.jpg",
+        "connectors": [
+          {"direction": "TOP", "type": "SMOOTH"},
+          {"direction": "RIGHT", "type": "SMOOTH"},
+          {"direction": "BOTTOM", "type": "UNIVERSAL"},
+          {"direction": "LEFT", "type": "SINGLE"}
+        ]
+      }
+    },
+    {
+      "type": "Cannon",
+      "data": {
+        "image": "/tiles/GT-tiles_49.jpg",
+        "connectors": [
+          {"direction": "TOP", "type": "SMOOTH"},
+          {"direction": "RIGHT", "type": "SINGLE"},
+          {"direction": "BOTTOM", "type": "SINGLE"},
+          {"direction": "LEFT", "type": "SINGLE"}
+        ]
+      }
+    },
+    {
+      "type": "Cannon",
+      "data": {
+        "image": "/tiles/GT-tiles_50.jpg",
+        "connectors": [
+          {"direction": "TOP", "type": "SMOOTH"},
+          {"direction": "RIGHT", "type": "DOUBLE"},
+          {"direction": "BOTTOM", "type": "UNIVERSAL"},
+          {"direction": "LEFT", "type": "SINGLE"}
+        ]
+      }
+    },
+    {
+      "type": "Cannon",
+      "data": {
+        "image": "/tiles/GT-tiles_51.jpg",
+        "connectors": [
+          {"direction": "TOP", "type": "SMOOTH"},
+          {"direction": "RIGHT", "type": "UNIVERSAL"},
+          {"direction": "BOTTOM", "type": "SMOOTH"},
+          {"direction": "LEFT", "type": "SINGLE"}
+        ]
+      }
+    },
+    {
+      "type": "Cannon",
+      "data": {
+        "image": "/tiles/GT-tiles_52.jpg",
+        "connectors": [
+          {"direction": "TOP", "type": "SMOOTH"},
+          {"direction": "RIGHT", "type": "SMOOTH"},
+          {"direction": "BOTTOM", "type": "SMOOTH"},
+          {"direction": "LEFT", "type": "DOUBLE"}
+        ]
+      }
+    },
+    {
+      "type": "Cannon",
+      "data": {
+        "image": "/tiles/GT-tiles_53.jpg",
+        "connectors": [
+          {"direction": "TOP", "type": "SMOOTH"},
+          {"direction": "RIGHT", "type": "SMOOTH"},
+          {"direction": "BOTTOM", "type": "SINGLE"},
+          {"direction": "LEFT", "type": "DOUBLE"}
+        ]
+      }
+    },
+    {
+      "type": "Cannon",
+      "data": {
+        "image": "/tiles/GT-tiles_54.jpg",
+        "connectors": [
+          {"direction": "TOP", "type": "SMOOTH"},
+          {"direction": "RIGHT", "type": "SMOOTH"},
+          {"direction": "BOTTOM", "type": "UNIVERSAL"},
+          {"direction": "LEFT", "type": "DOUBLE"}
+        ]
+      }
+    },
+    {
+      "type": "Cannon",
+      "data": {
+        "image": "/tiles/GT-tiles_55.jpg",
+        "connectors": [
+          {"direction": "TOP", "type": "SMOOTH"},
+          {"direction": "RIGHT", "type": "SINGLE"},
+          {"direction": "BOTTOM", "type": "SMOOTH"},
+          {"direction": "LEFT", "type": "DOUBLE"}
+        ]
+      }
+    },
+    {
+      "type": "Cannon",
+      "data": {
+        "image": "/tiles/GT-tiles_56.jpg",
+        "connectors": [
+          {"direction": "TOP", "type": "SMOOTH"},
+          {"direction": "RIGHT", "type": "SINGLE"},
+          {"direction": "BOTTOM", "type": "UNIVERSAL"},
+          {"direction": "LEFT", "type": "DOUBLE"}
+        ]
+      }
+    },
+    {
+      "type": "Cannon",
+      "data": {
+        "image": "/tiles/GT-tiles_57.jpg",
+        "connectors": [
+          {"direction": "TOP", "type": "SMOOTH"},
+          {"direction": "RIGHT", "type": "DOUBLE"},
+          {"direction": "BOTTOM", "type": "DOUBLE"},
+          {"direction": "LEFT", "type": "DOUBLE"}
+        ]
+      }
+    },
+    {
+      "type": "Cannon",
+      "data": {
+        "image": "/tiles/GT-tiles_58.jpg",
+        "connectors": [
+          {"direction": "TOP", "type": "SMOOTH"},
+          {"direction": "RIGHT", "type": "SMOOTH"},
+          {"direction": "BOTTOM", "type": "DOUBLE"},
+          {"direction": "LEFT", "type": "UNIVERSAL"}
+        ]
+      }
+    },
+    {
+      "type": "Cannon",
+      "data": {
+        "image": "/tiles/GT-tiles_59.jpg",
+        "connectors": [
+          {"direction": "TOP", "type": "SMOOTH"},
+          {"direction": "RIGHT", "type": "DOUBLE"},
+          {"direction": "BOTTOM", "type": "SMOOTH"},
+          {"direction": "LEFT", "type": "UNIVERSAL"}
+        ]
+      }
+    },
+    {
+      "type": "CargoHold",
+      "data": {
+        "image": "/tiles/GT-tiles_60.jpg",
+        "connectors": [
+          {"direction": "TOP", "type": "DOUBLE"},
+          {"direction": "RIGHT", "type": "SINGLE"},
+          {"direction": "BOTTOM", "type": "UNIVERSAL"},
+          {"direction": "LEFT", "type": "SMOOTH"}
+        ],
+        "compartment_type": "BLUE",
+        "compartment_capacity": 2
+      }
+    },
+    {
+      "type": "CargoHold",
+      "data": {
+        "image": "/tiles/GT-tiles_61.jpg",
+        "connectors": [
+          {"direction": "TOP", "type": "DOUBLE"},
+          {"direction": "RIGHT", "type": "SINGLE"},
+          {"direction": "BOTTOM", "type": "UNIVERSAL"},
+          {"direction": "LEFT", "type": "SINGLE"}
+        ],
+        "compartment_type": "BLUE",
+        "compartment_capacity": 2
+      }
+    },
+    {
+      "type": "CargoHold",
+      "data": {
+        "image": "/tiles/GT-tiles_62.jpg",
+        "connectors": [
+          {"direction": "TOP", "type": "DOUBLE"},
+          {"direction": "RIGHT", "type": "UNIVERSAL"},
+          {"direction": "BOTTOM", "type": "SMOOTH"},
+          {"direction": "LEFT", "type": "SINGLE"}
+        ],
+        "compartment_type": "BLUE",
+        "compartment_capacity": 2
+      }
+    },
+    {
+      "type": "CargoHold",
+      "data": {
+        "image": "/tiles/GT-tiles_63.jpg",
+        "connectors": [
+          {"direction": "TOP", "type": "SMOOTH"},
+          {"direction": "RIGHT", "type": "SMOOTH"},
+          {"direction": "BOTTOM", "type": "SMOOTH"},
+          {"direction": "LEFT", "type": "UNIVERSAL"}
+        ],
+        "compartment_type": "BLUE",
+        "compartment_capacity": 2
+      }
+    },
+    {
+      "type": "CargoHold",
+      "data": {
+        "image": "/tiles/GT-tiles_64.jpg",
+        "connectors": [
+          {"direction": "TOP", "type": "SMOOTH"},
+          {"direction": "RIGHT", "type": "SMOOTH"},
+          {"direction": "BOTTOM", "type": "SMOOTH"},
+          {"direction": "LEFT", "type": "UNIVERSAL"}
+        ],
+        "compartment_type": "BLUE",
+        "compartment_capacity": 2
+      }
+    },
+    {
+      "type": "CargoHold",
+      "data": {
+        "image": "/tiles/GT-tiles_65.jpg",
+        "connectors": [
+          {"direction": "TOP", "type": "SMOOTH"},
+          {"direction": "RIGHT", "type": "SINGLE"},
+          {"direction": "BOTTOM", "type": "SMOOTH"},
+          {"direction": "LEFT", "type": "UNIVERSAL"}
+        ],
+        "compartment_type": "BLUE",
+        "compartment_capacity": 2
+      }
+    },
+    {
+      "type": "CargoHold",
+      "data": {
+        "image": "/tiles/GT-tiles_66.jpg",
+        "connectors": [
+          {"direction": "TOP", "type": "SMOOTH"},
+          {"direction": "RIGHT", "type": "DOUBLE"},
+          {"direction": "BOTTOM", "type": "SMOOTH"},
+          {"direction": "LEFT", "type": "UNIVERSAL"}
+        ],
+        "compartment_type": "BLUE",
+        "compartment_capacity": 2
+      }
+    },
+    {
+      "type": "CargoHold",
+      "data": {
+        "image": "/tiles/GT-tiles_67.jpg",
+        "connectors": [
+          {"direction": "TOP", "type": "DOUBLE"},
+          {"direction": "RIGHT", "type": "SINGLE"},
+          {"direction": "BOTTOM", "type": "DOUBLE"},
+          {"direction": "LEFT", "type": "UNIVERSAL"}
+        ],
+        "compartment_type": "BLUE",
+        "compartment_capacity": 2
+      }
+    },
+    {
+      "type": "CargoHold",
+      "data": {
+        "image": "/tiles/GT-tiles_68.jpg",
+        "connectors": [
+          {"direction": "TOP", "type": "UNIVERSAL"},
+          {"direction": "RIGHT", "type": "SMOOTH"},
+          {"direction": "BOTTOM", "type": "SMOOTH"},
+          {"direction": "LEFT", "type": "UNIVERSAL"}
+        ],
+        "compartment_type": "BLUE",
+        "compartment_capacity": 2
+      }
+    },
+    {
+      "type": "CargoHold",
+      "data": {
+        "image": "/tiles/GT-tiles_69.jpg",
+        "connectors": [
+          {"direction": "TOP", "type": "SMOOTH"},
+          {"direction": "RIGHT", "type": "SMOOTH"},
+          {"direction": "BOTTOM", "type": "SMOOTH"},
+          {"direction": "LEFT", "type": "SINGLE"}
+        ],
+        "compartment_type": "BLUE",
+        "compartment_capacity": 3
+      }
+    },
+    {
+      "type": "CargoHold",
+      "data": {
+        "image": "/tiles/GT-tiles_70.jpg",
+        "connectors": [
+          {"direction": "TOP", "type": "DOUBLE"},
+          {"direction": "RIGHT", "type": "SMOOTH"},
+          {"direction": "BOTTOM", "type": "SINGLE"},
+          {"direction": "LEFT", "type": "DOUBLE"}
+        ],
+        "compartment_type": "BLUE",
+        "compartment_capacity": 3
+      }
+    },
+    {
+      "type": "CargoHold",
+      "data": {
+        "image": "/tiles/GT-tiles_71.jpg",
+        "connectors": [
+          {"direction": "TOP", "type": "SINGLE"},
+          {"direction": "RIGHT", "type": "SMOOTH"},
+          {"direction": "BOTTOM", "type": "SINGLE"},
+          {"direction": "LEFT", "type": "SMOOTH"}
+        ],
+        "compartment_type": "BLUE",
+        "compartment_capacity": 3
+      }
+    },
+    {
+      "type": "CargoHold",
+      "data": {
+        "image": "/tiles/GT-tiles_72.jpg",
+        "connectors": [
+          {"direction": "TOP", "type": "SMOOTH"},
+          {"direction": "RIGHT", "type": "SMOOTH"},
+          {"direction": "BOTTOM", "type": "SMOOTH"},
+          {"direction": "LEFT", "type": "DOUBLE"}
+        ],
+        "compartment_type": "BLUE",
+        "compartment_capacity": 3
+      }
+    },
+    {
+      "type": "CargoHold",
+      "data": {
+        "image": "/tiles/GT-tiles_73.jpg",
+        "connectors": [
+          {"direction": "TOP", "type": "DOUBLE"},
+          {"direction": "RIGHT", "type": "SMOOTH"},
+          {"direction": "BOTTOM", "type": "DOUBLE"},
+          {"direction": "LEFT", "type": "SMOOTH"}
+        ],
+        "compartment_type": "BLUE",
+        "compartment_capacity": 3
+      }
+    },
+    {
+      "type": "CargoHold",
+      "data": {
+        "image": "/tiles/GT-tiles_74.jpg",
+        "connectors": [
+          {"direction": "TOP", "type": "SINGLE"},
+          {"direction": "RIGHT", "type": "SMOOTH"},
+          {"direction": "BOTTOM", "type": "DOUBLE"},
+          {"direction": "LEFT", "type": "SINGLE"}
+        ],
+        "compartment_type": "BLUE",
+        "compartment_capacity": 3
+      }
+    },
+    {
+      "type": "CargoHold",
+      "data": {
+        "image": "/tiles/GT-tiles_75.jpg",
+        "connectors": [
+          {"direction": "TOP", "type": "SMOOTH"},
+          {"direction": "RIGHT", "type": "DOUBLE"},
+          {"direction": "BOTTOM", "type": "SINGLE"},
+          {"direction": "LEFT", "type": "UNIVERSAL"}
+        ],
+        "compartment_type": "RED",
+        "compartment_capacity": 1
+      }
+    },
+    {
+      "type": "CargoHold",
+      "data": {
+        "image": "/tiles/GT-tiles_76.jpg",
+        "connectors": [
+          {"direction": "TOP", "type": "SMOOTH"},
+          {"direction": "RIGHT", "type": "UNIVERSAL"},
+          {"direction": "BOTTOM", "type": "SMOOTH"},
+          {"direction": "LEFT", "type": "UNIVERSAL"}
+        ],
+        "compartment_type": "RED",
+        "compartment_capacity": 1
+      }
+    },
+    {
+      "type": "CargoHold",
+      "data": {
+        "image": "/tiles/GT-tiles_77.jpg",
+        "connectors": [
+          {"direction": "TOP", "type": "SINGLE"},
+          {"direction": "RIGHT", "type": "SINGLE"},
+          {"direction": "BOTTOM", "type": "SINGLE"},
+          {"direction": "LEFT", "type": "UNIVERSAL"}
+        ],
+        "compartment_type": "RED",
+        "compartment_capacity": 1
+      }
+    },
+    {
+      "type": "CargoHold",
+      "data": {
+        "image": "/tiles/GT-tiles_78.jpg",
+        "connectors": [
+          {"direction": "TOP", "type": "DOUBLE"},
+          {"direction": "RIGHT", "type": "SINGLE"},
+          {"direction": "BOTTOM", "type": "SMOOTH"},
+          {"direction": "LEFT", "type": "UNIVERSAL"}
+        ],
+        "compartment_type": "RED",
+        "compartment_capacity": 1
+      }
+    },
+    {
+      "type": "CargoHold",
+      "data": {
+        "image": "/tiles/GT-tiles_79.jpg",
+        "connectors": [
+          {"direction": "TOP", "type": "DOUBLE"},
+          {"direction": "RIGHT", "type": "DOUBLE"},
+          {"direction": "BOTTOM", "type": "DOUBLE"},
+          {"direction": "LEFT", "type": "UNIVERSAL"}
+        ],
+        "compartment_type": "RED",
+        "compartment_capacity": 1
+      }
+    },
+    {
+      "type": "CargoHold",
+      "data": {
+        "image": "/tiles/GT-tiles_80.jpg",
+        "connectors": [
+          {"direction": "TOP", "type": "SMOOTH"},
+          {"direction": "RIGHT", "type": "SMOOTH"},
+          {"direction": "BOTTOM", "type": "SMOOTH"},
+          {"direction": "LEFT", "type": "DOUBLE"}
+        ],
+        "compartment_type": "RED",
+        "compartment_capacity": 2
+      }
+    },
+    {
+      "type": "CargoHold",
+      "data": {
+        "image": "/tiles/GT-tiles_81.jpg",
+        "connectors": [
+          {"direction": "TOP", "type": "UNIVERSAL"},
+          {"direction": "RIGHT", "type": "SMOOTH"},
+          {"direction": "BOTTOM", "type": "SMOOTH"},
+          {"direction": "LEFT", "type": "UNIVERSAL"}
+        ],
+        "compartment_type": "RED",
+        "compartment_capacity": 1
+      }
+    },
+    {
+      "type": "CargoHold",
+      "data": {
+        "image": "/tiles/GT-tiles_82.jpg",
+        "connectors": [
+          {"direction": "TOP", "type": "SMOOTH"},
+          {"direction": "RIGHT", "type": "SMOOTH"},
+          {"direction": "BOTTOM", "type": "SMOOTH"},
+          {"direction": "LEFT", "type": "SINGLE"}
+        ],
+        "compartment_type": "RED",
+        "compartment_capacity": 2
+      }
+    },
+    {
+      "type": "CargoHold",
+      "data": {
+        "image": "/tiles/GT-tiles_83.jpg",
+        "connectors": [
+          {"direction": "TOP", "type": "SMOOTH"},
+          {"direction": "RIGHT", "type": "DOUBLE"},
+          {"direction": "BOTTOM", "type": "SMOOTH"},
+          {"direction": "LEFT", "type": "SINGLE"}
+        ],
+        "compartment_type": "RED",
+        "compartment_capacity": 2
+      }
+    },
+    {
+      "type": "DoubleCannon",
+      "data": {
+        "image": "/tiles/GT-tiles_84.jpg",
+        "connectors": [
+          {"direction": "TOP", "type": "SMOOTH"},
+          {"direction": "RIGHT", "type": "SMOOTH"},
+          {"direction": "BOTTOM", "type": "SINGLE"},
+          {"direction": "LEFT", "type": "SMOOTH"}
+        ]
+      }
+    },
+    {
+      "type": "DoubleCannon",
+      "data": {
+        "image": "/tiles/GT-tiles_85.jpg",
+        "connectors": [
+          {"direction": "TOP", "type": "SMOOTH"},
+          {"direction": "RIGHT", "type": "SMOOTH"},
+          {"direction": "BOTTOM", "type": "DOUBLE"},
+          {"direction": "LEFT", "type": "SMOOTH"}
+        ]
+      }
+    },
+    {
+      "type": "DoubleCannon",
+      "data": {
+        "image": "/tiles/GT-tiles_86.jpg",
+        "connectors": [
+          {"direction": "TOP", "type": "SMOOTH"},
+          {"direction": "RIGHT", "type": "SINGLE"},
+          {"direction": "BOTTOM", "type": "UNIVERSAL"},
+          {"direction": "LEFT", "type": "SMOOTH"}
+        ]
+      }
+    },
+    {
+      "type": "DoubleCannon",
+      "data": {
+        "image": "/tiles/GT-tiles_87.jpg",
+        "connectors": [
+          {"direction": "TOP", "type": "SMOOTH"},
+          {"direction": "RIGHT", "type": "UNIVERSAL"},
+          {"direction": "BOTTOM", "type": "SMOOTH"},
+          {"direction": "LEFT", "type": "SMOOTH"}
+        ]
+      }
+    },
+    {
+      "type": "DoubleCannon",
+      "data": {
+        "image": "/tiles/GT-tiles_88.jpg",
+        "connectors": [
+          {"direction": "TOP", "type": "SMOOTH"},
+          {"direction": "RIGHT", "type": "UNIVERSAL"},
+          {"direction": "BOTTOM", "type": "DOUBLE"},
+          {"direction": "LEFT", "type": "SMOOTH"}
+        ]
+      }
+    },
+    {
+      "type": "DoubleCannon",
+      "data": {
+        "image": "/tiles/GT-tiles_89.jpg",
+        "connectors": [
+          {"direction": "TOP", "type": "SMOOTH"},
+          {"direction": "RIGHT", "type": "SINGLE"},
+          {"direction": "BOTTOM", "type": "DOUBLE"},
+          {"direction": "LEFT", "type": "SINGLE"}
+        ]
+      }
+    },
+    {
+      "type": "DoubleCannon",
+      "data": {
+        "image": "/tiles/GT-tiles_90.jpg",
+        "connectors": [
+          {"direction": "TOP", "type": "SMOOTH"},
+          {"direction": "RIGHT", "type": "DOUBLE"},
+          {"direction": "BOTTOM", "type": "SMOOTH"},
+          {"direction": "LEFT", "type": "SINGLE"}
+        ]
+      }
+    },
+    {
+      "type": "DoubleCannon",
+      "data": {
+        "image": "/tiles/GT-tiles_91.jpg",
+        "connectors": [
+          {"direction": "TOP", "type": "SMOOTH"},
+          {"direction": "RIGHT", "type": "SMOOTH"},
+          {"direction": "BOTTOM", "type": "UNIVERSAL"},
+          {"direction": "LEFT", "type": "DOUBLE"}
+        ]
+      }
+    },
+    {
+      "type": "DoubleCannon",
+      "data": {
+        "image": "/tiles/GT-tiles_92.jpg",
+        "connectors": [
+          {"direction": "TOP", "type": "SMOOTH"},
+          {"direction": "RIGHT", "type": "DOUBLE"},
+          {"direction": "BOTTOM", "type": "SINGLE"},
+          {"direction": "LEFT", "type": "DOUBLE"}
+        ]
+      }
+    },
+    {
+      "type": "DoubleCannon",
+      "data": {
+        "image": "/tiles/GT-tiles_93.jpg",
+        "connectors": [
+          {"direction": "TOP", "type": "SMOOTH"},
+          {"direction": "RIGHT", "type": "SMOOTH"},
+          {"direction": "BOTTOM", "type": "SMOOTH"},
+          {"direction": "LEFT", "type": "UNIVERSAL"}
+        ]
+      }
+    },
+    {
+      "type": "DoubleCannon",
+      "data": {
+        "image": "/tiles/GT-tiles_94.jpg",
+        "connectors": [
+          {"direction": "TOP", "type": "SMOOTH"},
+          {"direction": "RIGHT", "type": "SMOOTH"},
+          {"direction": "BOTTOM", "type": "SINGLE"},
+          {"direction": "LEFT", "type": "UNIVERSAL"}
+        ]
+      }
+    },
+    {
+      "type": "DoubleMotor",
+      "data": {
+        "image": "/tiles/GT-tiles_95.jpg",
+        "connectors": [
+          {"direction": "TOP", "type": "DOUBLE"},
+          {"direction": "RIGHT", "type": "SMOOTH"},
+          {"direction": "BOTTOM", "type": "SMOOTH"},
+          {"direction": "LEFT", "type": "UNIVERSAL"}
+        ]
+      }
+    },
+    {
+      "type": "DoubleMotor",
+      "data": {
+        "image": "/tiles/GT-tiles_96.jpg",
+        "connectors": [
+          {"direction": "TOP", "type": "SINGLE"},
+          {"direction": "RIGHT", "type": "SMOOTH"},
+          {"direction": "BOTTOM", "type": "SMOOTH"},
+          {"direction": "LEFT", "type": "SMOOTH"}
+        ]
+      }
+    },
+    {
+      "type": "DoubleMotor",
+      "data": {
+        "image": "/tiles/GT-tiles_97.jpg",
+        "connectors": [
+          {"direction": "TOP", "type": "SINGLE"},
+          {"direction": "RIGHT", "type": "UNIVERSAL"},
+          {"direction": "BOTTOM", "type": "SMOOTH"},
+          {"direction": "LEFT", "type": "SMOOTH"}
+        ]
+      }
+    },
+    {
+      "type": "DoubleMotor",
+      "data": {
+        "image": "/tiles/GT-tiles_98.jpg",
+        "connectors": [
+          {"direction": "TOP", "type": "DOUBLE"},
+          {"direction": "RIGHT", "type": "SMOOTH"},
+          {"direction": "BOTTOM", "type": "SMOOTH"},
+          {"direction": "LEFT", "type": "SMOOTH"}
+        ]
+      }
+    },
+    {
+      "type": "DoubleMotor",
+      "data": {
+        "image": "/tiles/GT-tiles_99.jpg",
+        "connectors": [
+          {"direction": "TOP", "type": "SMOOTH"},
+          {"direction": "RIGHT", "type": "UNIVERSAL"},
+          {"direction": "BOTTOM", "type": "SMOOTH"},
+          {"direction": "LEFT", "type": "UNIVERSAL"}
+        ]
+      }
+    },
+    {
+      "type": "DoubleMotor",
+      "data": {
+        "image": "/tiles/GT-tiles_100.jpg",
+        "connectors": [
+          {"direction": "TOP", "type": "UNIVERSAL"},
+          {"direction": "RIGHT", "type": "SINGLE"},
+          {"direction": "BOTTOM", "type": "SMOOTH"},
+          {"direction": "LEFT", "type": "SMOOTH"}
+        ]
+      }
+    },
+    {
+      "type": "DoubleMotor",
+      "data": {
+        "image": "/tiles/GT-tiles_101.jpg",
+        "connectors": [
+          {"direction": "TOP", "type": "SINGLE"},
+          {"direction": "RIGHT", "type": "SINGLE"},
+          {"direction": "BOTTOM", "type": "SMOOTH"},
+          {"direction": "LEFT", "type": "SINGLE"}
+        ]
+      }
+    },
+    {
+      "type": "DoubleMotor",
+      "data": {
+        "image": "/tiles/GT-tiles_102.jpg",
+        "connectors": [
+          {"direction": "TOP", "type": "DOUBLE"},
+          {"direction": "RIGHT", "type": "DOUBLE"},
+          {"direction": "BOTTOM", "type": "SMOOTH"},
+          {"direction": "LEFT", "type": "DOUBLE"}
+        ]
+      }
+    },
+    {
+      "type": "DoubleMotor",
+      "data": {
+        "image": "/tiles/GT-tiles_103.jpg",
+        "connectors": [
+          {"direction": "TOP", "type": "UNIVERSAL"},
+          {"direction": "RIGHT", "type": "SMOOTH"},
+          {"direction": "BOTTOM", "type": "SMOOTH"},
+          {"direction": "LEFT", "type": "DOUBLE"}
+        ]
+      }
+    },
+    {
+      "type": "Motor",
+      "data": {
+        "image": "/tiles/GT-tiles_104.jpg",
+        "connectors": [
+          {"direction": "TOP", "type": "SMOOTH"},
+          {"direction": "RIGHT", "type": "UNIVERSAL"},
+          {"direction": "BOTTOM", "type": "SMOOTH"},
+          {"direction": "LEFT", "type": "SMOOTH"}
+        ]
+      }
+    },
+    {
+      "type": "Motor",
+      "data": {
+        "image": "/tiles/GT-tiles_105.jpg",
+        "connectors": [
+          {"direction": "TOP", "type": "SINGLE"},
+          {"direction": "RIGHT", "type": "SMOOTH"},
+          {"direction": "BOTTOM", "type": "SMOOTH"},
+          {"direction": "LEFT", "type": "UNIVERSAL"}
+        ]
+      }
+    },
+    {
+      "type": "Motor",
+      "data": {
+        "image": "/tiles/GT-tiles_106.jpg",
+        "connectors": [
+          {"direction": "TOP", "type": "SMOOTH"},
+          {"direction": "RIGHT", "type": "UNIVERSAL"},
+          {"direction": "BOTTOM", "type": "SMOOTH"},
+          {"direction": "LEFT", "type": "SMOOTH"}
+        ]
+      }
+    },
+    {
+      "type": "Motor",
+      "data": {
+        "image": "/tiles/GT-tiles_107.jpg",
+        "connectors": [
+          {"direction": "TOP", "type": "SINGLE"},
+          {"direction": "RIGHT", "type": "SMOOTH"},
+          {"direction": "BOTTOM", "type": "SMOOTH"},
+          {"direction": "LEFT", "type": "SMOOTH"}
+        ]
+      }
+    },
+    {
+      "type": "Motor",
+      "data": {
+        "image": "/tiles/GT-tiles_108.jpg",
+        "connectors": [
+          {"direction": "TOP", "type": "SINGLE"},
+          {"direction": "RIGHT", "type": "SMOOTH"},
+          {"direction": "BOTTOM", "type": "SMOOTH"},
+          {"direction": "LEFT", "type": "SMOOTH"}
+        ]
+      }
+    },
+    {
+      "type": "Motor",
+      "data": {
+        "image": "/tiles/GT-tiles_109.jpg",
+        "connectors": [
+          {"direction": "TOP", "type": "SINGLE"},
+          {"direction": "RIGHT", "type": "SINGLE"},
+          {"direction": "BOTTOM", "type": "SMOOTH"},
+          {"direction": "LEFT", "type": "SMOOTH"}
+        ]
+      }
+    },
+    {
+      "type": "Motor",
+      "data": {
+        "image": "/tiles/GT-tiles_110.jpg",
+        "connectors": [
+          {"direction": "TOP", "type": "DOUBLE"},
+          {"direction": "RIGHT", "type": "SMOOTH"},
+          {"direction": "BOTTOM", "type": "SMOOTH"},
+          {"direction": "LEFT", "type": "SMOOTH"}
+        ]
+      }
+    },
+    {
+      "type": "Motor",
+      "data": {
+        "image": "/tiles/GT-tiles_111.jpg",
+        "connectors": [
+          {"direction": "TOP", "type": "SINGLE"},
+          {"direction": "RIGHT", "type": "SMOOTH"},
+          {"direction": "BOTTOM", "type": "SMOOTH"},
+          {"direction": "LEFT", "type": "SMOOTH"}
+        ]
+      }
+    },
+    {
+      "type": "Motor",
+      "data": {
+        "image": "/tiles/GT-tiles_112.jpg",
+        "connectors": [
+          {"direction": "TOP", "type": "DOUBLE"},
+          {"direction": "RIGHT", "type": "UNIVERSAL"},
+          {"direction": "BOTTOM", "type": "SMOOTH"},
+          {"direction": "LEFT", "type": "SMOOTH"}
+        ]
+      }
+    },
+    {
+      "type": "Motor",
+      "data": {
+        "image": "/tiles/GT-tiles_113.jpg",
+        "connectors": [
+          {"direction": "TOP", "type": "UNIVERSAL"},
+          {"direction": "RIGHT", "type": "DOUBLE"},
+          {"direction": "BOTTOM", "type": "SMOOTH"},
+          {"direction": "LEFT", "type": "SMOOTH"}
+        ]
+      }
+    },
+    {
+      "type": "Motor",
+      "data": {
+        "image": "/tiles/GT-tiles_114.jpg",
+        "connectors": [
+          {"direction": "TOP", "type": "SMOOTH"},
+          {"direction": "RIGHT", "type": "UNIVERSAL"},
+          {"direction": "BOTTOM", "type": "SMOOTH"},
+          {"direction": "LEFT", "type": "SINGLE"}
+        ]
+      }
+    },
+    {
+      "type": "Motor",
+      "data": {
+        "image": "/tiles/GT-tiles_115.jpg",
+        "connectors": [
+          {"direction": "TOP", "type": "DOUBLE"},
+          {"direction": "RIGHT", "type": "SINGLE"},
+          {"direction": "BOTTOM", "type": "SMOOTH"},
+          {"direction": "LEFT", "type": "SINGLE"}
+        ]
+      }
+    },
+    {
+      "type": "Motor",
+      "data": {
+        "image": "/tiles/GT-tiles_116.jpg",
+        "connectors": [
+          {"direction": "TOP", "type": "UNIVERSAL"},
+          {"direction": "RIGHT", "type": "SMOOTH"},
+          {"direction": "BOTTOM", "type": "SMOOTH"},
+          {"direction": "LEFT", "type": "SINGLE"}
+        ]
+      }
+    },
+    {
+      "type": "Motor",
+      "data": {
+        "image": "/tiles/GT-tiles_117.jpg",
+        "connectors": [
+          {"direction": "TOP", "type": "UNIVERSAL"},
+          {"direction": "RIGHT", "type": "DOUBLE"},
+          {"direction": "BOTTOM", "type": "SMOOTH"},
+          {"direction": "LEFT", "type": "SINGLE"}
+        ]
+      }
+    },
+    {
+      "type": "Motor",
+      "data": {
+        "image": "/tiles/GT-tiles_118.jpg",
+        "connectors": [
+          {"direction": "TOP", "type": "SMOOTH"},
+          {"direction": "RIGHT", "type": "SINGLE"},
+          {"direction": "BOTTOM", "type": "SMOOTH"},
+          {"direction": "LEFT", "type": "DOUBLE"}
+        ]
+      }
+    },
+    {
+      "type": "Motor",
+      "data": {
+        "image": "/tiles/GT-tiles_119.jpg",
+        "connectors": [
+          {"direction": "TOP", "type": "SINGLE"},
+          {"direction": "RIGHT", "type": "DOUBLE"},
+          {"direction": "BOTTOM", "type": "SMOOTH"},
+          {"direction": "LEFT", "type": "DOUBLE"}
+        ]
+      }
+    },
+    {
+      "type": "Motor",
+      "data": {
+        "image": "/tiles/GT-tiles_120.jpg",
+        "connectors": [
+          {"direction": "TOP", "type": "DOUBLE"},
+          {"direction": "RIGHT", "type": "SMOOTH"},
+          {"direction": "BOTTOM", "type": "SMOOTH"},
+          {"direction": "LEFT", "type": "DOUBLE"}
+        ]
+      }
+    },
+    {
+      "type": "Motor",
+      "data": {
+        "image": "/tiles/GT-tiles_121.jpg",
+        "connectors": [
+          {"direction": "TOP", "type": "UNIVERSAL"},
+          {"direction": "RIGHT", "type": "SINGLE"},
+          {"direction": "BOTTOM", "type": "SMOOTH"},
+          {"direction": "LEFT", "type": "DOUBLE"}
+        ]
+      }
+    },
+    {
+      "type": "Motor",
+      "data": {
+        "image": "/tiles/GT-tiles_122.jpg",
+        "connectors": [
+          {"direction": "TOP", "type": "SMOOTH"},
+          {"direction": "RIGHT", "type": "SMOOTH"},
+          {"direction": "BOTTOM", "type": "SMOOTH"},
+          {"direction": "LEFT", "type": "UNIVERSAL"}
+        ]
+      }
+    },
+    {
+      "type": "Motor",
+      "data": {
+        "image": "/tiles/GT-tiles_123.jpg",
+        "connectors": [
+          {"direction": "TOP", "type": "SMOOTH"},
+          {"direction": "RIGHT", "type": "SMOOTH"},
+          {"direction": "BOTTOM", "type": "SMOOTH"},
+          {"direction": "LEFT", "type": "UNIVERSAL"}
+        ]
+      }
+    },
+    {
+      "type": "Motor",
+      "data": {
+        "image": "/tiles/GT-tiles_124.jpg",
+        "connectors": [
+          {"direction": "TOP", "type": "SMOOTH"},
+          {"direction": "RIGHT", "type": "DOUBLE"},
+          {"direction": "BOTTOM", "type": "SMOOTH"},
+          {"direction": "LEFT", "type": "UNIVERSAL"}
+        ]
+      }
+    },
+    {
+      "type": "Shield",
+      "data": {
+        "image": "/tiles/GT-tiles_125.jpg",
+        "connectors": [
+          {"direction": "TOP", "type": "SMOOTH"},
+          {"direction": "RIGHT", "type": "SINGLE"},
+          {"direction": "BOTTOM", "type": "UNIVERSAL"},
+          {"direction": "LEFT", "type": "SINGLE"}
+        ]
+      }
+    },
+    {
+      "type": "Shield",
+      "data": {
+        "image": "/tiles/GT-tiles_126.jpg",
+        "connectors": [
+          {"direction": "TOP", "type": "SINGLE"},
+          {"direction": "RIGHT", "type": "SMOOTH"},
+          {"direction": "BOTTOM", "type": "SINGLE"},
+          {"direction": "LEFT", "type": "SINGLE"}
+        ]
+      }
+    },
+    {
+      "type": "Shield",
+      "data": {
+        "image": "/tiles/GT-tiles_127.jpg",
+        "connectors": [
+          {"direction": "TOP", "type": "DOUBLE"},
+          {"direction": "RIGHT", "type": "SINGLE"},
+          {"direction": "BOTTOM", "type": "DOUBLE"},
+          {"direction": "LEFT", "type": "SINGLE"}
+        ]
+      }
+    },
+    {
+      "type": "Shield",
+      "data": {
+        "image": "/tiles/GT-tiles_128.jpg",
+        "connectors": [
+          {"direction": "TOP", "type": "SMOOTH"},
+          {"direction": "RIGHT", "type": "SMOOTH"},
+          {"direction": "BOTTOM", "type": "UNIVERSAL"},
+          {"direction": "LEFT", "type": "DOUBLE"}
+        ]
+      }
+    },
+    {
+      "type": "Shield",
+      "data": {
+        "image": "/tiles/GT-tiles_129.jpg",
+        "connectors": [
+          {"direction": "TOP", "type": "SMOOTH"},
+          {"direction": "RIGHT", "type": "DOUBLE"},
+          {"direction": "BOTTOM", "type": "DOUBLE"},
+          {"direction": "LEFT", "type": "DOUBLE"}
+        ]
+      }
+    },
+    {
+      "type": "Shield",
+      "data": {
+        "image": "/tiles/GT-tiles_130.jpg",
+        "connectors": [
+          {"direction": "TOP", "type": "SINGLE"},
+          {"direction": "RIGHT", "type": "DOUBLE"},
+          {"direction": "BOTTOM", "type": "SINGLE"},
+          {"direction": "LEFT", "type": "DOUBLE"}
+        ]
+      }
+    },
+    {
+      "type": "Shield",
+      "data": {
+        "image": "/tiles/GT-tiles_131.jpg",
+        "connectors": [
+          {"direction": "TOP", "type": "SMOOTH"},
+          {"direction": "RIGHT", "type": "SMOOTH"},
+          {"direction": "BOTTOM", "type": "SINGLE"},
+          {"direction": "LEFT", "type": "UNIVERSAL"}
+        ]
+      }
+    },
+    {
+      "type": "Shield",
+      "data": {
+        "image": "/tiles/GT-tiles_132.jpg",
+        "connectors": [
+          {"direction": "TOP", "type": "SMOOTH"},
+          {"direction": "RIGHT", "type": "DOUBLE"},
+          {"direction": "BOTTOM", "type": "DOUBLE"},
+          {"direction": "LEFT", "type": "UNIVERSAL"}
+        ]
+      }
+    },
+    {
+      "type": "StructuralModule",
+      "data": {
+        "image": "/tiles/GT-tiles_137.jpg",
+        "connectors": [
+          {"direction": "TOP", "type": "UNIVERSAL"},
+          {"direction": "RIGHT", "type": "UNIVERSAL"},
+          {"direction": "BOTTOM", "type": "SMOOTH"},
+          {"direction": "LEFT", "type": "SINGLE"}
+        ]
+      }
+    },
+    {
+      "type": "StructuralModule",
+      "data": {
+        "image": "/tiles/GT-tiles_138.jpg",
+        "connectors": [
+          {"direction": "TOP", "type": "SINGLE"},
+          {"direction": "RIGHT", "type": "UNIVERSAL"},
+          {"direction": "BOTTOM", "type": "SMOOTH"},
+          {"direction": "LEFT", "type": "UNIVERSAL"}
+        ]
+      }
+    },
+    {
+      "type": "StructuralModule",
+      "data": {
+        "image": "/tiles/GT-tiles_139.jpg",
+        "connectors": [
+          {"direction": "TOP", "type": "SINGLE"},
+          {"direction": "RIGHT", "type": "UNIVERSAL"},
+          {"direction": "BOTTOM", "type": "SINGLE"},
+          {"direction": "LEFT", "type": "UNIVERSAL"}
+        ]
+      }
+    },
+    {
+      "type": "StructuralModule",
+      "data": {
+        "image": "/tiles/GT-tiles_140.jpg",
+        "connectors": [
+          {"direction": "TOP", "type": "SINGLE"},
+          {"direction": "RIGHT", "type": "UNIVERSAL"},
+          {"direction": "BOTTOM", "type": "DOUBLE"},
+          {"direction": "LEFT", "type": "UNIVERSAL"}
+        ]
+      }
+    },
+    {
+      "type": "StructuralModule",
+      "data": {
+        "image": "/tiles/GT-tiles_141.jpg",
+        "connectors": [
+          {"direction": "TOP", "type": "DOUBLE"},
+          {"direction": "RIGHT", "type": "UNIVERSAL"},
+          {"direction": "BOTTOM", "type": "SMOOTH"},
+          {"direction": "LEFT", "type": "UNIVERSAL"}
+        ]
+      }
+    },
+    {
+      "type": "StructuralModule",
+      "data": {
+        "image": "/tiles/GT-tiles_142.jpg",
+        "connectors": [
+          {"direction": "TOP", "type": "UNIVERSAL"},
+          {"direction": "RIGHT", "type": "SINGLE"},
+          {"direction": "BOTTOM", "type": "DOUBLE"},
+          {"direction": "LEFT", "type": "UNIVERSAL"}
+        ]
+      }
+    },
+    {
+      "type": "StructuralModule",
+      "data": {
+        "image": "/tiles/GT-tiles_143.jpg",
+        "connectors": [
+          {"direction": "TOP", "type": "UNIVERSAL"},
+          {"direction": "RIGHT", "type": "DOUBLE"},
+          {"direction": "BOTTOM", "type": "SMOOTH"},
+          {"direction": "LEFT", "type": "UNIVERSAL"}
+        ]
+      }
+    },
+    {
+      "type": "StructuralModule",
+      "data": {
+        "image": "/tiles/GT-tiles_144.jpg",
+        "connectors": [
+          {"direction": "TOP", "type": "UNIVERSAL"},
+          {"direction": "RIGHT", "type": "DOUBLE"},
+          {"direction": "BOTTOM", "type": "DOUBLE"},
+          {"direction": "LEFT", "type": "UNIVERSAL"}
+        ]
+      }
+    },
+    {
+      "type": "VitalSupport",
+      "data": {
+        "image": "/tiles/GT-tiles_145.jpg",
+        "connectors": [
+          {"direction": "TOP", "type": "SINGLE"},
+          {"direction": "RIGHT", "type": "SINGLE"},
+          {"direction": "BOTTOM", "type": "SMOOTH"},
+          {"direction": "LEFT", "type": "SINGLE"}
+        ],
+        "vital_support_color": "YELLOW"
+      }
+    },
+    {
+      "type": "VitalSupport",
+      "data": {
+        "image": "/tiles/GT-tiles_146.jpg",
+        "connectors": [
+          {"direction": "TOP", "type": "DOUBLE"},
+          {"direction": "RIGHT", "type": "SINGLE"},
+          {"direction": "BOTTOM", "type": "SMOOTH"},
+          {"direction": "LEFT", "type": "SINGLE"}
+        ],
+        "vital_support_color": "YELLOW"
+      }
+    },
+    {
+      "type": "VitalSupport",
+      "data": {
+        "image": "/tiles/GT-tiles_147.jpg",
+        "connectors": [
+          {"direction": "TOP", "type": "SMOOTH"},
+          {"direction": "RIGHT", "type": "SMOOTH"},
+          {"direction": "BOTTOM", "type": "SMOOTH"},
+          {"direction": "LEFT", "type": "UNIVERSAL"}
+        ],
+        "vital_support_color": "YELLOW"
+      }
+    },
+    {
+      "type": "VitalSupport",
+      "data": {
+        "image": "/tiles/GT-tiles_148.jpg",
+        "connectors": [
+          {"direction": "TOP", "type": "SMOOTH"},
+          {"direction": "RIGHT", "type": "SMOOTH"},
+          {"direction": "BOTTOM", "type": "SINGLE"},
+          {"direction": "LEFT", "type": "UNIVERSAL"}
+        ],
+        "vital_support_color": "YELLOW"
+      }
+    },
+    {
+      "type": "VitalSupport",
+      "data": {
+        "image": "/tiles/GT-tiles_149.jpg",
+        "connectors": [
+          {"direction": "TOP", "type": "SMOOTH"},
+          {"direction": "RIGHT", "type": "DOUBLE"},
+          {"direction": "BOTTOM", "type": "SMOOTH"},
+          {"direction": "LEFT", "type": "UNIVERSAL"}
+        ],
+        "vital_support_color": "YELLOW"
+      }
+    },
+    {
+      "type": "VitalSupport",
+      "data": {
+        "image": "/tiles/GT-tiles_150.jpg",
+        "connectors": [
+          {"direction": "TOP", "type": "SINGLE"},
+          {"direction": "RIGHT", "type": "SMOOTH"},
+          {"direction": "BOTTOM", "type": "SMOOTH"},
+          {"direction": "LEFT", "type": "UNIVERSAL"}
+        ],
+        "vital_support_color": "YELLOW"
+      }
+    },
+    {
+      "type": "VitalSupport",
+      "data": {
+        "image": "/tiles/GT-tiles_151.jpg",
+        "connectors": [
+          {"direction": "TOP", "type": "SINGLE"},
+          {"direction": "RIGHT", "type": "DOUBLE"},
+          {"direction": "BOTTOM", "type": "SMOOTH"},
+          {"direction": "LEFT", "type": "DOUBLE"}
+        ],
+        "vital_support_color": "PURPLE"
+      }
+    },
+    {
+      "type": "VitalSupport",
+      "data": {
+        "image": "/tiles/GT-tiles_152.jpg",
+        "connectors": [
+          {"direction": "TOP", "type": "DOUBLE"},
+          {"direction": "RIGHT", "type": "DOUBLE"},
+          {"direction": "BOTTOM", "type": "SMOOTH"},
+          {"direction": "LEFT", "type": "DOUBLE"}
+        ],
+        "vital_support_color": "PURPLE"
+      }
+    },
+    {
+      "type": "VitalSupport",
+      "data": {
+        "image": "/tiles/GT-tiles_153.jpg",
+        "connectors": [
+          {"direction": "TOP", "type": "SMOOTH"},
+          {"direction": "RIGHT", "type": "SMOOTH"},
+          {"direction": "BOTTOM", "type": "SMOOTH"},
+          {"direction": "LEFT", "type": "UNIVERSAL"}
+        ],
+        "vital_support_color": "PURPLE"
+      }
+    },
+    {
+      "type": "VitalSupport",
+      "data": {
+        "image": "/tiles/GT-tiles_154.jpg",
+        "connectors": [
+          {"direction": "TOP", "type": "SMOOTH"},
+          {"direction": "RIGHT", "type": "SMOOTH"},
+          {"direction": "BOTTOM", "type": "DOUBLE"},
+          {"direction": "LEFT", "type": "UNIVERSAL"}
+        ],
+        "vital_support_color": "PURPLE"
+      }
+    },
+    {
+      "type": "VitalSupport",
+      "data": {
+        "image": "/tiles/GT-tiles_155.jpg",
+        "connectors": [
+          {"direction": "TOP", "type": "SMOOTH"},
+          {"direction": "RIGHT", "type": "SINGLE"},
+          {"direction": "BOTTOM", "type": "SMOOTH"},
+          {"direction": "LEFT", "type": "UNIVERSAL"}
+        ],
+        "vital_support_color": "PURPLE"
+      }
+    },
+    {
+      "type": "VitalSupport",
+      "data": {
+        "image": "/tiles/GT-tiles_156.jpg",
+        "connectors": [
+          {"direction": "TOP", "type": "DOUBLE"},
+          {"direction": "RIGHT", "type": "SMOOTH"},
+          {"direction": "BOTTOM", "type": "SMOOTH"},
+          {"direction": "LEFT", "type": "UNIVERSAL"}
+        ],
+        "vital_support_color": "PURPLE"
+      }
+    }
+  ]
+}

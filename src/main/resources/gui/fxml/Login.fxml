@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+
+<?import javafx.scene.layout.GridPane?>
+<AnchorPane prefHeight="800.0" prefWidth="1200.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="it.polimi.ingsoftware.ll13.client.view.gui.LoginController"
+            stylesheets="@../css/Style.css, @../css/ErrorStyling.css, @../css/Style.css">
+
+    <HBox alignment="CENTER" spacing="20" AnchorPane.leftAnchor="375.0" AnchorPane.rightAnchor="375.0" AnchorPane.topAnchor="50.0">
+        <ImageView fitHeight="300.0" fitWidth="450.0">
+            <image>
+                <Image url="@../images/Title.jpg" />
+            </image>
+        </ImageView>
+    </HBox>
+
+    <VBox fx:id="SelectionPane" alignment="CENTER" spacing="20" AnchorPane.leftAnchor="500.0" AnchorPane.rightAnchor="500.0" AnchorPane.topAnchor="400.0">
+        <Button fx:id="NewMatchButton" onAction="#showNewMatchOptions" text="New Match" styleClass="button" />
+        <Button fx:id="JoinGameButton" onAction="#showJoinOptions" text="Join Game" styleClass="button" />
+    </VBox>
+
+    <GridPane fx:id="NewMatchPane" alignment="CENTER" hgap="20" vgap="20"
+               AnchorPane.leftAnchor="400" AnchorPane.rightAnchor="400" AnchorPane.topAnchor="450"
+               visible="false">
+
+    <Label text="Username:" GridPane.columnIndex="0" GridPane.rowIndex="0" />
+    <TextField fx:id="NicknameTextField" promptText="Enter nickname" GridPane.columnIndex="1" GridPane.rowIndex="0" />
+
+    <Label fx:id="usernameErrorLabel2"
+           text="⚠ Username already taken"
+           styleClass="error-label"
+           visible="false"
+           GridPane.columnIndex="2" GridPane.rowIndex="0" />
+
+    <Label text="Number of Players:" GridPane.columnIndex="0" GridPane.rowIndex="1" />
+    <ChoiceBox fx:id="NumberOfPlayersChoiceBox" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+
+    <Label text="Game Level:" GridPane.columnIndex="0" GridPane.rowIndex="2" />
+    <ChoiceBox fx:id="GameLevelChoiceBox" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+
+    <Button text="Create Match" onAction="#createNewMatch" GridPane.columnIndex="0" GridPane.rowIndex="3" />
+    <Button text="Back" onAction="#goBackToSelection" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+</GridPane>
+
+
+
+    <VBox fx:id="JoinGamePane" alignment="CENTER" spacing="20" AnchorPane.leftAnchor="500.0" AnchorPane.rightAnchor="500.0" AnchorPane.topAnchor="400.0" visible="false">
+        <Label text="Enter your username:" styleClass="label" />
+        <TextField fx:id="JoinNicknameTextField" promptText="Enter your nickname" styleClass="text-field" />
+        <Label fx:id="usernameTakenLabel" text="Username already taken" styleClass="error-label" visible="false"/>
+        <Label fx:id="usernameErrorLabel"
+               text="⚠ Invalid nickname length"
+               styleClass="error-label"
+               visible="false"/>
+        <Button text="Join Game" onAction="#joinGame" styleClass="button" />
+        <Button text="Back" onAction="#goBackToSelection" styleClass="button" />
+    </VBox>
+
+</AnchorPane>

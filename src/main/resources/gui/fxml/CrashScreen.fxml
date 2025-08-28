@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+
+<?import javafx.scene.text.Text?>
+<StackPane xmlns="http://javafx.com/javafx/23.0.1"
+           xmlns:fx="http://javafx.com/fxml"
+           fx:controller="it.polimi.ingsoftware.ll13.client.view.gui.CrashScreenController"
+           prefWidth="900.0" prefHeight="700.0"
+           stylesheets="@../css/Style.css">
+
+    <!-- Background image -->
+    <ImageView  opacity="0.5">
+        <image>
+            <Image url="@../images/ServerCrash.png" />
+        </image>
+    </ImageView>
+
+    <!-- Message and Exit button -->
+    <VBox alignment="CENTER" spacing="60">
+        <Text fx:id="errorMessageText"
+              text="ERROR"
+              styleClass="error-text" />
+
+        <Button fx:id="exitButton"
+                text="EXIT GAME"
+                onAction="#onExitClicked"
+                style="-fx-background-color: #FFDA03; -fx-text-fill: #000000; -fx-font-size: 20pt;" />
+    </VBox>
+
+</StackPane>
+
+

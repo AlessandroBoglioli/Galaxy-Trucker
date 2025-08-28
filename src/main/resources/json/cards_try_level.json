@@ -1,0 +1,113 @@
+{
+  "cards": [
+    {
+      "type": "AbandonedShip",
+      "data": {
+        "level": 0,
+        "image": "/cards/GT-cards_1_abandoned_ship_2.jpg",
+        "crew_sacrifice": 3,
+        "credits_reward": 4,
+        "flight_days_reduction": 1
+      }
+    },
+    {
+      "type": "AbandonedStation",
+      "data": {
+        "level": 0,
+        "image": "/cards/GT-cards_1_abandoned_station_1.jpg",
+        "required_crew": 5,
+        "rewards": [
+          "YELLOW",
+          "GREEN"
+        ],
+        "flight_days_reduction": 1
+      }
+    },
+    {
+      "type": "MeteorShower",
+      "data": {
+        "level": 0,
+        "image": "/cards/GT-cards_1_meteor_shower_1.jpg",
+        "meteors": [
+          {
+            "type": "BIG",
+            "direction": "TOP"
+          },
+          {
+            "type": "SMALL",
+            "direction": "LEFT"
+          },
+          {
+            "type": "SMALL",
+            "direction": "RIGHT"
+          }
+        ]
+      }
+    },
+    {
+      "type": "OpenSpace",
+      "data": {
+        "level": 0,
+        "image": "/cards/GT-cards_1_open_space_1.jpg"
+      }
+    },
+    {
+      "type": "Planets",
+      "data": {
+        "level": 0,
+        "image": "/cards/GT-cards_1_planets_2.jpg",
+        "planets": [
+          {
+            "cargos": ["RED", "RED"]
+          },
+          {
+            "cargos": ["RED", "BLUE", "BLUE"]
+          },
+          {
+            "cargos": ["YELLOW"]
+          }
+        ],
+        "flight_days_reduction": 2
+      }
+    },
+    {
+      "type": "Smugglers",
+      "data": {
+        "level": 0,
+        "image": "/cards/GT-cards_1_smugglers_1.jpg",
+        "fire_power_needed": 4,
+        "cargo_penalty": 2,
+        "rewards": ["YELLOW", "GREEN", "BLUE"],
+        "flight_days_reduction": 1
+      }
+    },
+    {
+      "type": "StellarSpacedust",
+      "data": {
+        "level": 0,
+        "image": "/cards/GT-cards_1_stellar_spacedust_1.jpg"
+      }
+    },
+    {
+      "type": "MeteorShower",
+      "data": {
+        "level": 0,
+        "image": "/cards/GT-cards_1_meteor_shower_1.jpg",
+        "meteors": [
+          {
+            "type": "BIG",
+            "direction": "TOP"
+          },
+          {
+            "type": "SMALL",
+            "direction": "LEFT"
+          },
+          {
+            "type": "SMALL",
+            "direction": "RIGHT"
+          }
+        ]
+      }
+    }
+  ]
+}

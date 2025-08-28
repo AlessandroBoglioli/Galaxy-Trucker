@@ -1,0 +1,161 @@
+package it.polimi.ingsoftware.ll13.server.Comunication;
+
+import it.polimi.ingsoftware.ll13.model.GameModel;
+import it.polimi.ingsoftware.ll13.model.crew_members.Alien;
+import it.polimi.ingsoftware.ll13.model.crew_members.AlienColor;
+import it.polimi.ingsoftware.ll13.model.crew_members.Human;
+import it.polimi.ingsoftware.ll13.model.general_enumerations.GameLevel;
+import it.polimi.ingsoftware.ll13.model.general_enumerations.PlayerColors;
+import it.polimi.ingsoftware.ll13.model.player.Player;
+import it.polimi.ingsoftware.ll13.model.ship_board.Ship;
+import it.polimi.ingsoftware.ll13.model.tiles.enumerations.ConnectorType;
+import it.polimi.ingsoftware.ll13.model.tiles.enumerations.VitalSupportColor;
+import it.polimi.ingsoftware.ll13.model.tiles.tiles_objects.CabinTile;
+import it.polimi.ingsoftware.ll13.model.tiles.tiles_objects.StructuralModuleTile;
+import it.polimi.ingsoftware.ll13.model.tiles.tiles_objects.Tile;
+import it.polimi.ingsoftware.ll13.model.tiles.tiles_objects.VitalSupportTile;
+import it.polimi.ingsoftware.ll13.network.requests.game_requests.validation.PlaceCrewRequest;
+import it.polimi.ingsoftware.ll13.network.response.match_responses.phase_change.AdventurePhase;
+import it.polimi.ingsoftware.ll13.server.controller.GameController;
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import static org.junit.jupiter.api.Assertions.assertEquals;
+
+public class GameControllerCrewPlaceTest {
+    private GameController controller;
+    private List<Player> players;
+
+    private void setUp(){
+        controller = GameController.getInstance();
+        controller.reset();
+        controller.reset();
+        players = new ArrayList<>();
+        Player player1 = new Player(0, "Kfrenezy", PlayerColors.RED);
+        Player player2 = new Player(1, "Zanone", PlayerColors.BLUE);
+        players.add(player1);
+        players.add(player2);
+    }
+    @Test
+    void testPlaceCrewRequest() throws InterruptedException {
+        setUp();
+        controller.startMatch(new ArrayList<>(), players, GameLevel.LEVEL_2);
+        controller.setGameModel(new GameModel(GameLevel.LEVEL_2,players));
+        controller.getGameModel().setHourglass(new FakeHourglass());
+        Thread controllerThread = new Thread(controller);
+        controllerThread.start();
+        Player player1 = players.getFirst();
+        Player player2 = players.get(1);
+        Ship ship1 = player1.getShip();
+        Ship ship2 = player2.getShip();
+        Tile tile1 = new CabinTile("", ConnectorType.SMOOTH,ConnectorType.DOUBLE,ConnectorType.DOUBLE,ConnectorType.UNIVERSAL);
+        Tile tile2 = new StructuralModuleTile("", ConnectorType.UNIVERSAL,ConnectorType.UNIVERSAL,ConnectorType.UNIVERSAL,ConnectorType.UNIVERSAL);
+        Tile tile3 = new CabinTile("", ConnectorType.UNIVERSAL,ConnectorType.UNIVERSAL,ConnectorType.UNIVERSAL,ConnectorType.SMOOTH);
+        Tile tile4 = new VitalSupportTile("", ConnectorType.SMOOTH,ConnectorType.SMOOTH,ConnectorType.SMOOTH,ConnectorType.UNIVERSAL, VitalSupportColor.YELLOW);
+        ship1.getShipLayout().addTile(tile1, 2,4);
+        ship1.getShipLayout().addTile(tile2,3,4);
+        ship1.getShipLayout().addTile(tile3,4,4);
+        ship1.getShipLayout().addTile(tile4,4,5);
+        Tile tile5 = new VitalSupportTile("", ConnectorType.SMOOTH,ConnectorType.SINGLE,ConnectorType.UNIVERSAL,ConnectorType.SMOOTH,VitalSupportColor.PURPLE);
+        ship2.getShipLayout().addTile(tile5,1,3);
+        Tile tile6 = new CabinTile("", ConnectorType.UNIVERSAL,ConnectorType.UNIVERSAL,ConnectorType.UNIVERSAL,ConnectorType.UNIVERSAL);
+        ship2.getShipLayout().addTile(tile6, 1, 4);
+        Tile tile7 = new CabinTile("", ConnectorType.UNIVERSAL,ConnectorType.UNIVERSAL,ConnectorType.UNIVERSAL,ConnectorType.UNIVERSAL);
+        ship2.getShipLayout().addTile(tile7, 2,4);
+        Tile tile8 = new Tile("", ConnectorType.UNIVERSAL,ConnectorType.UNIVERSAL,ConnectorType.UNIVERSAL,ConnectorType.UNIVERSAL);
+        ship2.getShipLayout().addTile(tile8, 3,4);
+        Tile tile9 = new VitalSupportTile("", ConnectorType.UNIVERSAL,ConnectorType.UNIVERSAL,ConnectorType.UNIVERSAL,ConnectorType.UNIVERSAL,VitalSupportColor.YELLOW);
+        ship2.getShipLayout().addTile(tile9, 3, 5);
+        Tile tile10 = new CabinTile("", ConnectorType.UNIVERSAL,ConnectorType.SMOOTH,ConnectorType.SMOOTH,ConnectorType.SMOOTH);
+        ship2.getShipLayout().addTile(tile10, 4,5);
+        Tile tile11 = new Tile("", ConnectorType.SMOOTH,ConnectorType.UNIVERSAL,ConnectorType.SMOOTH,ConnectorType.UNIVERSAL);
+        ship2.getShipLayout().addTile(tile11,2,2);
+        Tile tile12 = new VitalSupportTile("", ConnectorType.SMOOTH,ConnectorType.UNIVERSAL,ConnectorType.UNIVERSAL,ConnectorType.SMOOTH, VitalSupportColor.YELLOW);
+        Tile tile13 = new CabinTile("", ConnectorType.UNIVERSAL,ConnectorType.SMOOTH,ConnectorType.DOUBLE,ConnectorType.SMOOTH);
+        ship2.getShipLayout().addTile(tile12,2,1 );
+        ship2.getShipLayout().addTile(tile13,3,1);
+        PlaceCrewRequest placeCrewRequest1 = new PlaceCrewRequest(player1.getId(), 7,8, new Human());
+        PlaceCrewRequest placeCrewRequest2 = new PlaceCrewRequest(player1.getId(), 9,8, new Alien(AlienColor.YELLOW));
+        PlaceCrewRequest placeCrewRequest3 = new PlaceCrewRequest(player2.getId(),6,8,new Alien(AlienColor.PURPLE));
+        PlaceCrewRequest placeCrewRequest4 = new PlaceCrewRequest(player2.getId(), 7,8,new Human());
+        PlaceCrewRequest placeCrewRequest5 = new PlaceCrewRequest(player2.getId(), 9,9,new Alien(AlienColor.YELLOW));
+        PlaceCrewRequest placeCrewRequest6 = new PlaceCrewRequest(player2.getId(), 8,5, new Alien(AlienColor.YELLOW));
+        controller.submitRequest(placeCrewRequest3);
+        controller.submitRequest(placeCrewRequest4);
+        controller.submitRequest(placeCrewRequest5);
+        controller.submitRequest(placeCrewRequest6);
+        controller.submitRequest(placeCrewRequest1);
+        controller.submitRequest(placeCrewRequest2);
+        Thread.sleep(50);
+        ship1.getShipStats().calculateCrewMembers(ship1.getShipLayout());
+        ship2.getShipStats().calculateCrewMembers(ship2.getShipLayout());
+        int crewCount1 = ship1.getShipStats().getCrewMembers();
+        int crewCount2 = ship2.getShipStats().getCrewMembers();
+        assertEquals(5, crewCount1);
+        assertEquals(6, crewCount2);
+        controllerThread.interrupt();
+    }
+    @Test
+    void testIfAllCrewPlaced() throws InterruptedException {
+        setUp();
+        controller.startMatch(new ArrayList<>(), players, GameLevel.TRY_LEVEL);
+        controller.setGameModel(new GameModel(GameLevel.TRY_LEVEL,players));
+        controller.getGameModel().setHourglass(new FakeHourglass());
+        Thread controllerThread = new Thread(controller);
+        controllerThread.start();
+        Player player1 = players.getFirst();
+        Player player2 = players.get(1);
+        Ship ship1 = player1.getShip();
+        Ship ship2 = player2.getShip();
+        Tile tile1 = new CabinTile("", ConnectorType.SMOOTH,ConnectorType.DOUBLE,ConnectorType.DOUBLE,ConnectorType.UNIVERSAL);
+        Tile tile2 = new StructuralModuleTile("", ConnectorType.UNIVERSAL,ConnectorType.UNIVERSAL,ConnectorType.UNIVERSAL,ConnectorType.UNIVERSAL);
+        Tile tile3 = new CabinTile("", ConnectorType.UNIVERSAL,ConnectorType.UNIVERSAL,ConnectorType.UNIVERSAL,ConnectorType.SMOOTH);
+        Tile tile4 = new VitalSupportTile("", ConnectorType.SMOOTH,ConnectorType.SMOOTH,ConnectorType.SMOOTH,ConnectorType.UNIVERSAL, VitalSupportColor.YELLOW);
+        ship1.getShipLayout().addTile(tile1, 2,4);
+        ship1.getShipLayout().addTile(tile2,3,4);
+        ship1.getShipLayout().addTile(tile3,4,4);
+        ship1.getShipLayout().addTile(tile4,4,5);
+        Tile tile5 = new VitalSupportTile("", ConnectorType.SMOOTH,ConnectorType.SINGLE,ConnectorType.UNIVERSAL,ConnectorType.SMOOTH,VitalSupportColor.PURPLE);
+        ship2.getShipLayout().addTile(tile5,1,3);
+        Tile tile6 = new CabinTile("", ConnectorType.UNIVERSAL,ConnectorType.UNIVERSAL,ConnectorType.UNIVERSAL,ConnectorType.UNIVERSAL);
+        ship2.getShipLayout().addTile(tile6, 1, 4);
+        Tile tile7 = new CabinTile("", ConnectorType.UNIVERSAL,ConnectorType.UNIVERSAL,ConnectorType.UNIVERSAL,ConnectorType.UNIVERSAL);
+        ship2.getShipLayout().addTile(tile7, 2,4);
+        Tile tile8 = new Tile("", ConnectorType.UNIVERSAL,ConnectorType.UNIVERSAL,ConnectorType.UNIVERSAL,ConnectorType.UNIVERSAL);
+        ship2.getShipLayout().addTile(tile8, 3,4);
+        Tile tile9 = new VitalSupportTile("", ConnectorType.UNIVERSAL,ConnectorType.UNIVERSAL,ConnectorType.UNIVERSAL,ConnectorType.UNIVERSAL,VitalSupportColor.YELLOW);
+        ship2.getShipLayout().addTile(tile9, 3, 5);
+        Tile tile10 = new CabinTile("", ConnectorType.UNIVERSAL,ConnectorType.SMOOTH,ConnectorType.SMOOTH,ConnectorType.SMOOTH);
+        ship2.getShipLayout().addTile(tile10, 4,5);
+        Tile tile11 = new Tile("", ConnectorType.SMOOTH,ConnectorType.UNIVERSAL,ConnectorType.SMOOTH,ConnectorType.UNIVERSAL);
+        ship2.getShipLayout().addTile(tile11,2,2);
+        Tile tile12 = new VitalSupportTile("", ConnectorType.SMOOTH,ConnectorType.UNIVERSAL,ConnectorType.UNIVERSAL,ConnectorType.SMOOTH, VitalSupportColor.YELLOW);
+        Tile tile13 = new CabinTile("", ConnectorType.UNIVERSAL,ConnectorType.SMOOTH,ConnectorType.DOUBLE,ConnectorType.SMOOTH);
+        ship2.getShipLayout().addTile(tile12,2,1 );
+        ship2.getShipLayout().addTile(tile13,3,1);
+        MockObserver mockObserver = new MockObserver();
+        controller.addObserver(mockObserver);
+        PlaceCrewRequest placeCrewRequest1 = new PlaceCrewRequest(player1.getId(), 7,8, new Human());
+        PlaceCrewRequest placeCrewRequest2 = new PlaceCrewRequest(player1.getId(), 9,8, new Alien(AlienColor.YELLOW));
+        PlaceCrewRequest placeCrewRequest3 = new PlaceCrewRequest(player2.getId(),6,8,new Alien(AlienColor.PURPLE));
+        PlaceCrewRequest placeCrewRequest4 = new PlaceCrewRequest(player2.getId(), 7,8,new Human());
+        PlaceCrewRequest placeCrewRequest5 = new PlaceCrewRequest(player2.getId(), 9,9,new Alien(AlienColor.YELLOW));
+        PlaceCrewRequest placeCrewRequest6 = new PlaceCrewRequest(player2.getId(), 8,5, new Alien(AlienColor.YELLOW));
+        PlaceCrewRequest placeCrewRequest7 = new PlaceCrewRequest(player2.getId(), 8,5, new Human());
+        controller.submitRequest(placeCrewRequest3);
+        Thread.sleep(100);
+        controller.submitRequest(placeCrewRequest4);
+        controller.submitRequest(placeCrewRequest5);
+        Thread.sleep(100);
+        controller.submitRequest(placeCrewRequest6);
+        Thread.sleep(100);
+        controller.submitRequest(placeCrewRequest1);
+        controller.submitRequest(placeCrewRequest2);
+        controller.submitRequest(placeCrewRequest7);
+        Thread.sleep(50);
+        controllerThread.interrupt();
+    }
+}

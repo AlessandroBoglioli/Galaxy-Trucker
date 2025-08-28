@@ -1,0 +1,190 @@
+{
+  "cards": [
+    {
+      "type": "AbandonedShip",
+      "data": {
+        "level": 1,
+        "image": "/cards/GT-cards_1_abandoned_ship_1.jpg",
+        "crew_sacrifice": 2,
+        "credits_reward": 3,
+        "flight_days_reduction": 1
+      }
+    },
+    {
+      "type": "AbandonedStation",
+      "data": {
+        "level": 1,
+        "image": "/cards/GT-cards_1_abandoned_station_2.jpg",
+        "required_crew": 6,
+        "rewards": [
+          "RED",
+          "RED"
+        ],
+        "flight_days_reduction": 1
+      }
+    },
+    {
+      "type": "MeteorShower",
+      "data": {
+        "level": 1,
+        "image": "/cards/GT-cards_1_meteor_shower_3.jpg",
+        "meteors": [
+          {
+            "type": "BIG",
+            "direction": "TOP"
+          },
+          {
+            "type": "SMALL",
+            "direction": "TOP"
+          },
+          {
+            "type": "BIG",
+            "direction": "TOP"
+          }
+        ]
+      }
+    },
+    {
+      "type": "MeteorShower",
+      "data": {
+        "level": 1,
+        "image": "/cards/GT-cards_1_meteor_shower_2.jpg",
+        "meteors": [
+          {
+            "type": "SMALL",
+            "direction": "TOP"
+          },
+          {
+            "type": "SMALL",
+            "direction": "TOP"
+          },
+          {
+            "type": "SMALL",
+            "direction": "LEFT"
+          },
+          {
+            "type": "SMALL",
+            "direction": "RIGHT"
+          },
+          {
+            "type": "SMALL",
+            "direction": "BOTTOM"
+          }
+        ]
+      }
+    },
+    {
+      "type": "OpenSpace",
+      "data": {
+        "level": 1,
+        "image": "/cards/GT-cards_1_open_space_2.jpg"
+      }
+    },
+    {
+      "type": "OpenSpace",
+      "data": {
+        "level": 1,
+        "image": "/cards/GT-cards_1_open_space_3.jpg"
+      }
+    },
+    {
+      "type": "OpenSpace",
+      "data": {
+        "level": 1,
+        "image": "/cards/GT-cards_1_open_space_4.jpg"
+      }
+    },
+    {
+      "type": "Pirate",
+      "data": {
+        "level": 1,
+        "image": "/cards/GT-cards_1_pirate_1.jpg",
+        "fire_power_needed": 5,
+        "fire_shots": [
+          {
+            "type": "SMALL",
+            "direction": "TOP"
+          },
+          {
+            "type": "BIG",
+            "direction": "TOP"
+          },
+          {
+            "type": "SMALL",
+            "direction": "TOP"
+          }
+        ],
+        "credits_reward": 4,
+        "flight_days_reduction": 1
+      }
+    },
+    {
+      "type": "Planets",
+      "data": {
+        "level": 1,
+        "image": "/cards/GT-cards_1_planets_4.jpg",
+        "planets": [
+          {
+            "cargos": ["GREEN", "GREEN"]
+          },
+          {
+            "cargos": ["YELLOW"]
+          },
+          {
+            "cargos": ["BLUE", "BLUE", "BLUE"]
+          }
+        ],
+        "flight_days_reduction": 1
+      }
+    },
+    {
+      "type": "Planets",
+      "data": {
+        "level": 1,
+        "image": "/cards/GT-cards_1_planets_3.jpg",
+        "planets": [
+          {
+            "cargos": ["YELLOW", "GREEN", "BLUE", "BLUE"]
+          },
+          {
+            "cargos": ["YELLOW", "YELLOW"]
+          }
+        ],
+        "flight_days_reduction": 3
+      }
+    },
+    {
+      "type": "Planets",
+      "data": {
+        "level": 1,
+        "image": "/cards/GT-cards_1_planets_1.jpg",
+        "planets": [
+          {
+            "cargos": ["RED", "GREEN", "BLUE", "BLUE", "BLUE"]
+          },
+          {
+            "cargos": ["RED", "YELLOW", "BLUE"]
+          },
+          {
+            "cargos": ["RED", "BLUE", "BLUE", "BLUE"]
+          },
+          {
+            "cargos": ["RED", "GREEN"]
+          }
+        ],
+        "flight_days_reduction": 3
+      }
+    },
+    {
+      "type": "Slavers",
+      "data": {
+        "level": 1,
+        "image": "/cards/GT-cards_1_slavers_1.jpg",
+        "fire_power_needed": 6,
+        "crew_sacrifice": 3,
+        "credits_reward": 5,
+        "flight_days_reduction": 1
+      }
+    }
+  ]
+}

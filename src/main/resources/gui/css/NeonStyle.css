@@ -1,0 +1,57 @@
+/* NeonStyles.css */
+
+.neon-button {
+    -fx-background-color: #FFDA03;
+    -fx-text-fill: #000000;
+    -fx-font-size: 18pt;
+    -fx-padding: 15;
+    -fx-border-color: #FFDA03;
+    -fx-border-width: 2px;
+    -fx-border-radius: 10;
+    -fx-background-radius: 10;
+    -fx-effect: dropshadow(gaussian, #FFDA03, 20, 0.8, 0, 0);
+    -fx-font-family: Impact;
+    -fx-cursor: hand;
+    -fx-alignment: center;
+}
+
+.neon-label {
+    -fx-text-fill: #FFDA03;
+    -fx-font-size: 22pt;
+    -fx-effect: dropshadow(gaussian, #FFDA03, 20, 0.8, 0, 0);
+    -fx-font-family: Impact;
+}
+
+.neon-text-field {
+    -fx-background-color: #333333;
+    -fx-text-fill: #FFDA03;
+    -fx-font-size: 16pt;
+    -fx-padding: 10;
+    -fx-border-color: #FFDA03;
+    -fx-border-width: 2px;
+    -fx-border-radius: 5;
+    -fx-background-radius: 5;
+    -fx-effect: dropshadow(gaussian, #FFDA03, 20, 0.8, 0, 0);
+}
+
+.neon-choice-box {
+    -fx-background-color: #333333;
+    -fx-text-fill: #FFDA03;
+    -fx-border-color: #FFDA03;
+    -fx-border-width: 2px;
+    -fx-border-radius: 5;
+    -fx-background-radius: 5;
+    -fx-effect: dropshadow(gaussian, #FFDA03, 20, 0.8, 0, 0);
+}
+
+.error-label {
+    -fx-text-fill: #FF0000;
+    -fx-font-size: 18pt;
+    -fx-effect: dropshadow(gaussian, #FF0000, 15, 0.8, 0, 0);
+}
+
+.root {
+    -fx-background-image: url('/gui/images/your-background-image.png');
+    -fx-background-size: cover;
+    -fx-background-position: center;
+}

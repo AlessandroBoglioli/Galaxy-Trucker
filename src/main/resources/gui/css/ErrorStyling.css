@@ -1,0 +1,31 @@
+/* Error Label Styles */
+.error-label {
+    -fx-text-fill: #FFDA03;
+    -fx-font-family: Impact;
+    -fx-font-size: 18pt;
+    -fx-font-weight: bold;
+    -fx-background-color: #333333;
+    -fx-padding: 10;
+    -fx-background-radius: 10;
+    -fx-border-color: #FFDA03;
+    -fx-border-width: 3px;
+    -fx-border-radius: 10;
+    -fx-effect: dropshadow(three-pass-box, #FFDA03, 20, 0.8, 0, 0);
+}
+
+/* Error Icon Styles */
+.error-icon {
+    -fx-effect: dropshadow(three-pass-box, #FFDA03, 20, 0.8, 0, 0);
+    -fx-opacity: 0.9;
+}
+
+/* Pulsing Animation for Error Labels and Icons */
+@keyframes pulse {
+    0% { -fx-effect: dropshadow(three-pass-box, #FFDA03, 10, 0.7, 0, 0); }
+    50% { -fx-effect: dropshadow(three-pass-box, #FFFF00, 30, 0.9, 0, 0); }
+    100% { -fx-effect: dropshadow(three-pass-box, #FFDA03, 10, 0.7, 0, 0); }
+}
+
+.error-label.pulsing, .error-icon.pulsing {
+    -fx-animation: pulse 1s infinite alternate;
+}

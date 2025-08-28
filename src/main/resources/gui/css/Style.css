@@ -1,0 +1,104 @@
+.root{
+    -fx-background-color: #181818;
+    -fx-font-family: Impact;
+}
+
+.button{
+    -fx-background-color: #FFDA03;
+    -fx-text-fill: #000000;
+    -fx-font-size: 18pt;
+}
+
+.transparent-button{
+    -fx-background-color: transparent;
+    -fx-pref-width: 40px;
+    -fx-pref-height: 40px;
+    -fx-border-color: transparent;
+}
+
+.label {
+    -fx-background-color: transparent;
+    -fx-text-fill: #FFDA03;
+    -fx-font-size: 18pt;
+    -fx-padding: 10;
+}
+
+.text-field{
+    -fx-background-color: #CCCCCC;
+    -fx-text-fill: #000000;
+    -fx-font-size: 18pt;
+    -fx-padding: 10;
+}
+
+.choice-box {
+    -fx-background-color: #CCCCCC;
+    -fx-mark-color: #000000;
+}
+
+.choice-box > .label {
+    -fx-text-fill: #000000;
+}
+
+.choice-box .menu-item > .label {
+    -fx-text-fill: #000000;
+}
+.error-text {
+    -fx-font-size: 48pt;
+    -fx-fill: #FFDA03; /* Bright Yellow */
+    -fx-font-family: Impact;
+    -fx-text-alignment: center;
+}
+
+.scroll-pane > .viewport {
+    -fx-background-color: transparent;
+}
+
+.cards{
+    -fx-border-radius: 5px;
+}
+.astronaut-image {
+
+    -fx-cursor: hand;
+    -fx-opacity: 0.9;  /* Slight transparency for a cooler effect */
+    -fx-scale-x: 1.1;
+    -fx-scale-y: 1.1;
+    -fx-effect: dropshadow(gaussian, white, 25, 0.9, 0, 0);
+    -fx-border-color: #00FFFF;
+    -fx-border-width: 2;
+    -fx-border-radius: 15;
+}
+
+.get-ready-pane .label {
+    -fx-text-fill: #00FFFF;
+    -fx-font-size: 64px;
+    -fx-font-weight: bold;
+    -fx-effect: dropshadow(gaussian, #00FFFF, 30, 0.8, 0, 0);
+    -fx-opacity: 0;
+    -fx-transition: all 0.5s ease;
+}
+
+/* Animation for the text */
+.get-ready-pane .label.show {
+    -fx-opacity: 1;
+    -fx-scale-x: 1.1;
+    -fx-scale-y: 1.1;
+}
+
+.get-ready-pane .label.hide {
+    -fx-opacity: 0;
+    -fx-scale-x: 0.8;
+    -fx-scale-y: 0.8;
+}
+.grid-pane-with-bg {
+    -fx-background-image: url("/gui/images/PurpleGalaxy.jpg");
+    -fx-background-size: cover;
+    -fx-background-position: center;
+    -fx-background-repeat: no-repeat;
+}
+.label.big-crew-label {
+    -fx-text-fill: yellow;
+    -fx-font-size: 38px;
+    -fx-font-weight: bold;
+    -fx-font-family: "Orbitron";
+    -fx-effect: dropshadow(gaussian, black, 3, 0.7, 0, 0);
+}

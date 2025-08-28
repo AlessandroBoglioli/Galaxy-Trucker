@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+
+
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.layout.Pane?>
+<AnchorPane fx:id="rootPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="it.polimi.ingsoftware.ll13.client.view.gui.BuildingShipPhaseTryLevelController"
+            stylesheets="@../css/BlueGalaxy.css, @../css/Style.css" styleClass="anchor-pane-background">
+
+    <ImageView fx:id="astronautImage" fitWidth="250" preserveRatio="true" visible="false" AnchorPane.leftAnchor="20.0" AnchorPane.topAnchor="250" styleClass="astronaut-image">
+        <image>
+            <Image url="@../images/aust.png" />
+        </image>
+    </ImageView>
+
+
+    <Label fx:id="timer" style="-fx-background-color: transparent; -fx-text-fill: #FFFFFF" text="60 sec" AnchorPane.leftAnchor="20" AnchorPane.topAnchor="30" />
+
+
+
+
+    <StackPane fx:id="stackPane" AnchorPane.leftAnchor="0" AnchorPane.rightAnchor="0" AnchorPane.topAnchor="200" AnchorPane.bottomAnchor="0" alignment="CENTER" >
+
+
+        <ImageView fitWidth="750" preserveRatio="true">
+            <image>
+                <Image url="@../../cardboard/cardboard-1.jpg" />
+            </image>
+        </ImageView>
+
+        <StackPane minWidth="500" prefWidth="500" maxWidth="500" minHeight="500" prefHeight="500" maxHeight="500" alignment="CENTER">
+
+            <AnchorPane minWidth="500" prefWidth="500" maxWidth="500" minHeight="500" prefHeight="500" maxHeight="500" StackPane.alignment ="CENTER">
+
+                <GridPane fx:id="gridPane">
+                    <columnConstraints>
+                        <ColumnConstraints hgrow="ALWAYS" prefWidth="100" minWidth="100" maxWidth="100" />
+                        <ColumnConstraints hgrow="ALWAYS" prefWidth="100" minWidth="100" maxWidth="100" />
+                        <ColumnConstraints hgrow="ALWAYS" prefWidth="100" minWidth="100" maxWidth="100" />
+                        <ColumnConstraints hgrow="ALWAYS" prefWidth="100" minWidth="100" maxWidth="100" />
+                        <ColumnConstraints hgrow="ALWAYS" prefWidth="100" minWidth="100" maxWidth="100" />
+                    </columnConstraints>
+                    <rowConstraints>
+                        <RowConstraints vgrow="ALWAYS" prefHeight="100" minHeight="100" maxHeight="100"/>
+                        <RowConstraints vgrow="ALWAYS" prefHeight="100" minHeight="100" maxHeight="100"/>
+                        <RowConstraints vgrow="ALWAYS" prefHeight="100" minHeight="100" maxHeight="100"/>
+                        <RowConstraints vgrow="ALWAYS" prefHeight="100" minHeight="100" maxHeight="100"/>
+                        <RowConstraints vgrow="ALWAYS" prefHeight="100" minHeight="100" maxHeight="100"/>
+                    </rowConstraints>
+                    <children>
+                        <ImageView fitHeight="100.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="0" GridPane.valignment="CENTER">
+                        </ImageView>
+
+                        <ImageView fitHeight="100.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER">
+                        </ImageView>
+                        <ImageView fitHeight="100.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER">
+                        </ImageView>
+                        <ImageView fitHeight="100.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="3" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER">
+                        </ImageView>
+
+                        <ImageView fitHeight="100.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="0" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="CENTER">
+                        </ImageView>
+                        <ImageView fitHeight="100.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="CENTER">
+                        </ImageView>
+                        <ImageView fitHeight="100.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="3" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="CENTER">
+                        </ImageView>
+                        <ImageView fitHeight="100.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="4" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="CENTER">
+                        </ImageView>
+
+                        <ImageView fitHeight="100.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="0" GridPane.halignment="CENTER" GridPane.rowIndex="3" GridPane.valignment="CENTER">
+                        </ImageView>
+                        <ImageView fitHeight="100.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="3" GridPane.valignment="CENTER">
+                        </ImageView>
+                        <ImageView fitHeight="100.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="3" GridPane.valignment="CENTER">
+                        </ImageView>
+                        <ImageView fitHeight="100.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="3" GridPane.halignment="CENTER" GridPane.rowIndex="3" GridPane.valignment="CENTER">
+                        </ImageView>
+                        <ImageView fitHeight="100.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="4" GridPane.halignment="CENTER" GridPane.rowIndex="3" GridPane.valignment="CENTER">
+                        </ImageView>
+
+                        <ImageView fitHeight="100.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="0" GridPane.halignment="CENTER" GridPane.rowIndex="4" GridPane.valignment="CENTER">
+                        </ImageView>
+                        <ImageView fitHeight="100.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="4" GridPane.valignment="CENTER">
+                        </ImageView>
+                        <ImageView fitHeight="100.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="3" GridPane.halignment="CENTER" GridPane.rowIndex="4" GridPane.valignment="CENTER">
+                        </ImageView>
+                        <ImageView fitHeight="100.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="4" GridPane.halignment="CENTER" GridPane.rowIndex="4" GridPane.valignment="CENTER">
+                        </ImageView>
+
+                        <Button prefHeight="100.0" onAction="#gridButtonClicked" prefWidth="100.0" style="-fx-background-color: transparent;" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="0" GridPane.valignment="CENTER" />
+
+                        <Button prefHeight="100.0" onAction="#gridButtonClicked" prefWidth="100.0" style="-fx-background-color: transparent;" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER" />
+                        <Button prefHeight="100.0" onAction="#gridButtonClicked" prefWidth="100.0" style="-fx-background-color: transparent;" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER" />
+                        <Button prefHeight="100.0" onAction="#gridButtonClicked" prefWidth="100.0" style="-fx-background-color: transparent;" GridPane.columnIndex="3" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER" />
+
+                        <Button prefHeight="100.0" onAction="#gridButtonClicked" prefWidth="100.0" style="-fx-background-color: transparent;" GridPane.columnIndex="0" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="CENTER" />
+                        <Button prefHeight="100.0" onAction="#gridButtonClicked" prefWidth="100.0" style="-fx-background-color: transparent;" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="CENTER" />
+                        <ImageView fitHeight="100.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="CENTER">
+                            <image>
+                                <Image url="@../../tiles/GT-tiles_134.jpg" />
+                            </image>
+                        </ImageView>
+                        <Button prefHeight="100.0" onAction="#gridButtonClicked" prefWidth="100.0" style="-fx-background-color: transparent;" GridPane.columnIndex="3" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="CENTER" />
+                        <Button prefHeight="100.0" onAction="#gridButtonClicked" prefWidth="100.0" style="-fx-background-color: transparent;" GridPane.columnIndex="4" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="CENTER" />
+
+                        <Button prefHeight="100.0" onAction="#gridButtonClicked" prefWidth="100.0" style="-fx-background-color: transparent;" GridPane.columnIndex="0" GridPane.halignment="CENTER" GridPane.rowIndex="3" GridPane.valignment="CENTER" />
+                        <Button prefHeight="100.0" onAction="#gridButtonClicked" prefWidth="100.0" style="-fx-background-color: transparent;" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="3" GridPane.valignment="CENTER" />
+                        <Button prefHeight="100.0" onAction="#gridButtonClicked" prefWidth="100.0" style="-fx-background-color: transparent;" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="3" GridPane.valignment="CENTER" />
+                        <Button prefHeight="100.0" onAction="#gridButtonClicked" prefWidth="100.0" style="-fx-background-color: transparent;" GridPane.columnIndex="3" GridPane.halignment="CENTER" GridPane.rowIndex="3" GridPane.valignment="CENTER" />
+                        <Button prefHeight="100.0" onAction="#gridButtonClicked" prefWidth="100.0" style="-fx-background-color: transparent;" GridPane.columnIndex="4" GridPane.halignment="CENTER" GridPane.rowIndex="3" GridPane.valignment="CENTER" />
+
+                        <Button prefHeight="100.0" onAction="#gridButtonClicked" prefWidth="100.0" style="-fx-background-color: transparent;" GridPane.columnIndex="0" GridPane.halignment="CENTER" GridPane.rowIndex="4" GridPane.valignment="CENTER" />
+                        <Button prefHeight="100.0" onAction="#gridButtonClicked" prefWidth="100.0" style="-fx-background-color: transparent;" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="4" GridPane.valignment="CENTER" />
+                        <Button prefHeight="100.0" onAction="#gridButtonClicked" prefWidth="100.0" style="-fx-background-color: transparent;" GridPane.columnIndex="3" GridPane.halignment="CENTER" GridPane.rowIndex="4" GridPane.valignment="CENTER" />
+                        <Button prefHeight="100.0" onAction="#gridButtonClicked" prefWidth="100.0" style="-fx-background-color: transparent;" GridPane.columnIndex="4" GridPane.halignment="CENTER" GridPane.rowIndex="4" GridPane.valignment="CENTER" />
+                    </children>
+                </GridPane>
+
+                <GridPane minHeight="99.0" prefHeight="99.0" maxHeight="99.0" minWidth="195.0" prefWidth="195.0" maxWidth="195" AnchorPane.rightAnchor="-105" AnchorPane.topAnchor="-5">
+                    <columnConstraints>
+                        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                    </columnConstraints>
+                    <rowConstraints>
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                    </rowConstraints>
+                    <ImageView fx:id="saveTileSpace1" GridPane.columnIndex="0" fitWidth="97.5" fitHeight="99" preserveRatio="false"> </ImageView>
+                    <ImageView fx:id="saveTileSpace2" GridPane.columnIndex="1" fitWidth="97.5" fitHeight="99" preserveRatio="false"> </ImageView>
+                    <Button fx:id="savedButton1" onAction="#onSavedSlot1Clicked" prefHeight="146.0" prefWidth="225.0" style="-fx-background-color: transparent;" GridPane.columnIndex="0" GridPane.halignment="CENTER" GridPane.valignment="CENTER" />
+                    <Button fx:id="savedButton2" onAction="#onSavedSlot2Clicked" prefHeight="146.0" prefWidth="225.0" style="-fx-background-color: transparent;" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.valignment="CENTER" />
+                </GridPane>
+
+            </AnchorPane>
+        </StackPane>
+    </StackPane>
+
+   <VBox fx:id="leftButtonContainer" alignment="CENTER" spacing="20" AnchorPane.leftAnchor="94.0" AnchorPane.topAnchor="225.0">
+      <children>
+          <ImageView fx:id="magazineImage" fitHeight="154.0" fitWidth="152.0" pickOnBounds="true" preserveRatio="true">
+              <image>
+                  <Image url="@../images/magazine.png" />
+              </image>
+          </ImageView>
+         <Button fx:id="selectDiscartedTilesButton" onAction="#showDiscardedTiles" prefHeight="80" prefWidth="180" text="magazzino" textAlignment="CENTER" />
+          <ImageView fx:id="saveTileImage" fitHeight="154.0" fitWidth="152.0" pickOnBounds="true" preserveRatio="true">
+              <image>
+                  <Image url="@../images/st.png" />
+              </image>
+          </ImageView>
+         <Button fx:id="saveTileButton" onAction="#saveTile" prefHeight="80" prefWidth="180" text="salva" textAlignment="CENTER" />
+      </children>
+   </VBox>
+
+   <VBox  fx:id="rightButtonContainer" alignment="CENTER" spacing="20" AnchorPane.rightAnchor="41.0" AnchorPane.topAnchor="419.0">
+      <children>
+          <ImageView fx:id="drawTileImage" fitHeight="154.0" fitWidth="152.0" layoutX="76.0" layoutY="-24.0" pickOnBounds="true" preserveRatio="true" visible="true">
+              <image>
+                  <Image url="@../images/DrawTileImage.png" />
+              </image>
+          </ImageView>
+         <Button fx:id="drawTileButton" onAction="#drawTile" prefHeight="80" prefWidth="180" text="pesca" textAlignment="CENTER" />
+         <Button fx:id="finishBuildingButton" onAction="#placeRocketOnMap" prefHeight="80" prefWidth="180" text="mappa di&#10;gioco" textAlignment="CENTER" />
+      </children>
+   </VBox>
+
+    <HBox fx:id="firstHBox" alignment="CENTER" spacing="20" AnchorPane.leftAnchor="200" AnchorPane.rightAnchor="200" AnchorPane.topAnchor="50">
+        <Button fx:id="discardTileButton" onAction="#clearTileToPlace">
+            <graphic>
+                <ImageView fitHeight="32.0" fitWidth="32.0">
+                    <image>
+                        <Image url="@../images/Trash.png" />
+                    </image>
+                </ImageView>
+            </graphic>
+        </Button>
+
+        <ImageView fx:id="tileToPlace" fitHeight="150" fitWidth="150" preserveRatio="true" smooth="true">
+        </ImageView>
+        <Button fx:id="rotateButton" onAction="#rotateTileToPlace">
+            <graphic>
+                <ImageView fitHeight="32.0" fitWidth="32.0">
+                    <image>
+                        <Image url="@../images/ClockwiseRotation.png" />
+                    </image>
+                </ImageView>
+            </graphic>
+        </Button>
+        <Button fx:id="confirmRotation" onAction="#confirmRotation" text="Ruota" prefHeight="50.0" prefWidth="150" textAlignment="CENTER" />
+    </HBox>
+    <Pane fx:id="validationPane" layoutX="-6.0" layoutY="164.0" prefHeight="596.0" prefWidth="427.0" visible="false">
+        <children>
+            <Button fx:id="validationButton" onAction="#validate" layoutX="92.0" layoutY="416.0" mnemonicParsing="false" prefHeight="53.0" prefWidth="252.0" text="prova compatibilità" />
+        </children>
+    </Pane>
+
+    <VBox  fx:id="openSpaceOptions" alignment="CENTER" spacing="20" AnchorPane.rightAnchor="41.0" AnchorPane.topAnchor="419.0"  visible="false" disable="true">
+        <children>
+            <Button fx:id="confirmOpenSpace" onAction="#confirmOpenSpace" prefHeight="80" text="Conferma attivazione" textAlignment="CENTER" />
+            <Button fx:id="resetOpenSpace" onAction="#resetTilesWithBattery" prefHeight="80" text="Resetta selezione" textAlignment="CENTER" />
+        </children>
+    </VBox>
+
+    <VBox  fx:id="meteorShowerOptions" alignment="CENTER" spacing="20" AnchorPane.rightAnchor="41.0" AnchorPane.topAnchor="419.0"  visible="false" disable="true" >
+        <children>
+            <Button fx:id="confirmMeteorShower" onAction="#confirmMeteorShower" prefHeight="80" text="Conferma attivazione" textAlignment="CENTER"/>
+            <Button fx:id="resetMeteorShower" onAction="#resetTilesWithBattery" prefHeight="80" text="Resetta selezione" textAlignment="CENTER" />
+        </children>
+    </VBox>
+
+    <VBox fx:id="smugglersCannonOptions" alignment="CENTER" spacing="20"
+          AnchorPane.rightAnchor="41.0" AnchorPane.topAnchor="419.0"
+          visible="false" disable="true">
+        <children>
+            <Button fx:id="confirmSmugglersCannonsButton" onAction="#confirmSmugglersCannons"
+                    prefHeight="80" text="Conferma Cannoni" textAlignment="CENTER"/>
+        </children>
+    </VBox>
+
+    <VBox fx:id="warZoneOptions" alignment="CENTER" disable="true" spacing="20" visible="false" AnchorPane.rightAnchor="41.0" AnchorPane.topAnchor="419.0">
+        <children>
+            <Button fx:id="confirmWarZoneFirePower" onAction="#confirmWarZoneFirePower" prefHeight="80" text="Conferma attivazione" textAlignment="CENTER" />
+            <Button fx:id="resetWarZoneFirePower" onAction="#resetTilesWithBattery" prefHeight="80" text="Resetta selezione" textAlignment="CENTER" />
+        </children>
+    </VBox>
+
+    <VBox fx:id="thrustPowerOptions" alignment="CENTER" disable="true" spacing="20" visible="false" AnchorPane.rightAnchor="41.0" AnchorPane.topAnchor="419.0">
+        <children>
+            <Button onAction="#confirmWarZoneThrustPower" prefHeight="80" text="Conferma attivazione" textAlignment="CENTER" />
+            <Button onAction="#resetTilesWithBattery" prefHeight="80" text="Resetta selezione" textAlignment="CENTER" />
+        </children>
+    </VBox>
+
+    <VBox fx:id="projectileWarZoneOptions" alignment="CENTER" disable="true" spacing="20" visible="false" AnchorPane.rightAnchor="41.0" AnchorPane.topAnchor="419.0">
+        <children>
+            <Button onAction="#confirmDefence" prefHeight="80" text="Conferma attivazione" textAlignment="CENTER" />
+            <Button onAction="#resetTilesWithBattery" prefHeight="80" text="Resetta selezione" textAlignment="CENTER" />
+        </children>
+    </VBox>
+
+
+
+    <VBox  fx:id="shipCounters" alignment="CENTER" spacing="10" AnchorPane.leftAnchor="41.0" AnchorPane.topAnchor="100.0"  visible="false" >
+        <children>
+            <HBox fx:id="crewCountHBox" alignment="CENTER" spacing="20">
+                <ImageView fx:id="crewImage" fitHeight="80.0" fitWidth="100.0" preserveRatio="true">
+                    <image>
+                        <Image url="@../images/human.png" />
+                    </image>
+                </ImageView>
+                <Label fx:id="crewCount" text="..." prefWidth="100" prefHeight="80" textAlignment="CENTER"> </Label>
+            </HBox>
+
+            <HBox fx:id="batteryCountHBox" alignment="CENTER" spacing="20">
+                <ImageView fx:id="batteryImage" fitHeight="80.0" fitWidth="100.0" preserveRatio="true">
+                    <image>
+                        <Image url="@../images/batteryImage.png" />
+                    </image>
+                </ImageView>
+                <Label fx:id="batteryCount"  text="..." prefWidth="100" prefHeight="80" textAlignment="CENTER"> </Label>
+            </HBox>
+
+            <HBox fx:id="wasteTileCountHBox" alignment="CENTER" spacing="20">
+                <ImageView fx:id="wasteTileImage" fitHeight="80.0" fitWidth="100.0" preserveRatio="true">
+                    <image>
+                        <Image url="@../images/wasteTiles.png" />
+                    </image>
+                </ImageView>
+                <Label fx:id="wasteTileCount"  text="..." prefWidth="100" prefHeight="80" textAlignment="CENTER"> </Label>
+            </HBox>
+
+            <HBox fx:id="resourcesCountHBox" alignment="CENTER" spacing="20">
+                <ImageView fx:id="resoourcesImage" fitHeight="80.0" fitWidth="100.0" preserveRatio="true">
+                    <image>
+                        <Image url="@../images/cargo.png" />
+                    </image>
+                </ImageView>
+                <Label fx:id="resourcesCount"  text="..." prefWidth="100" prefHeight="80" textAlignment="CENTER"> </Label>
+            </HBox>
+
+            <HBox fx:id="creditCountHBox" alignment="CENTER" spacing="20">
+                <ImageView fx:id="creditImage" fitHeight="80.0" fitWidth="100.0" preserveRatio="true">
+                    <image>
+                        <Image url="@../images/credits.png" />
+                    </image>
+                </ImageView>
+                <Label fx:id="creditiCount"  text="..." prefWidth="100" prefHeight="80" textAlignment="CENTER"> </Label>
+            </HBox>
+
+            <HBox fx:id="exposedBoardersCountHBox" alignment="CENTER" spacing="20">
+                <ImageView fx:id="exposedBoardersImage" fitHeight="80.0" fitWidth="100.0" preserveRatio="true">
+                    <image>
+                        <Image url="@../images/exposedConnectors.png" />
+                    </image>
+                </ImageView>
+                <Label fx:id="exposedBoardersCount"  text="..." prefWidth="100" prefHeight="80" textAlignment="CENTER"> </Label>
+            </HBox>
+
+        </children>
+    </VBox>
+    <Pane layoutX="38.0" layoutY="852.0" prefHeight="254.0" prefWidth="349.0">
+        <children>
+            <ImageView fx:id="redShip" fitHeight="136.0" fitWidth="87.0" layoutX="35.0" layoutY="25.0" pickOnBounds="true" preserveRatio="true">
+                <image>
+                    <Image url="@../images/redRocket1.png" />
+                </image>
+            </ImageView>
+            <ImageView fx:id="blueShip" fitHeight="136.0" fitWidth="87.0" layoutX="103.0" layoutY="26.0" pickOnBounds="true" preserveRatio="true">
+                <image>
+                    <Image url="@../images/bluRocker.png" />
+                </image>
+            </ImageView>
+            <ImageView fx:id="yellowShip" fitHeight="136.0" fitWidth="87.0" layoutX="175.0" layoutY="28.0" pickOnBounds="true" preserveRatio="true">
+                <image>
+                    <Image url="@../images/yelloRocket.png" />
+                </image>
+            </ImageView>
+            <ImageView fx:id="greenShip" fitHeight="136.0" fitWidth="87.0" layoutX="243.0" layoutY="26.0" pickOnBounds="true" preserveRatio="true">
+                <image>
+                    <Image url="@../images/GreenRocket.png" />
+                </image>
+            </ImageView>
+        </children>
+    </Pane>
+
+
+
+
+</AnchorPane>

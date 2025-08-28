@@ -1,0 +1,12 @@
+{
+  "cards": [
+    {
+      "data": {
+        "level": 1,
+        "crew_sacrifice": 4,
+        "credits_reward": 6,
+        "flight_days_reduction": 1
+      }
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+.anchor-pane-background {
+    -fx-background-image: url("../images/DarkBlue.jpg");
+    -fx-background-size: cover;
+    -fx-background-position: center;
+
+
+
+}
