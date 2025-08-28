@@ -1,5 +1,7 @@
 # Software Engineering Project - 2024-2025
 
+## ⚠️ __Attention__: The files in the resources directory have been deleted as they were provided under a license agreement
+
 ![alt text](resources/readme/images/readme_header_image.jpg)
 This project __Galaxy Trucker__ is a video game inspired by the board game of the same name, where players take on the role of spaceship captains who must build, manage, and pilot their ships through a dangerous and unpredictable galaxy. The goal is to transport valuable cargo, survive threats such as asteroids, pirates, and aliens, and reach the destination with the ship as intact as possible.
 
@@ -32,7 +34,7 @@ The JUnit tests provide a line coverage of 99.8%, and we managed to test every c
 | __TLI__                 | ✅      |
 | __GUI__                 | ✅      |
 | __Communication__       | ✅      |
-| __Additional function__ | ✅      |
+| __Tutorial level__ | ✅      |
 
 ## Project structure
 ```shell
